@@ -1,5 +1,3 @@
-${widgets.commandButton("Open sidebar", "Navigate: Tree")}
-
 # Year 1
 ## Semester 1a
 - [[prog-fund|Programming Fundamentals]]
