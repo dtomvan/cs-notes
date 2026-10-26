@@ -1,14 +1,4 @@
 ```space-lua
-config.set {
-  silversearch = {
-    ignore = {
-      "*.pdf"
-    }
-  }
-}
-```
-
-```space-lua
 -- priority: 10
 actionButton.define {
   icon = "sidebar",
