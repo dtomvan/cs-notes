@@ -1,7 +1,8 @@
 ---
 pageDecoration:
   icon: airplay
-tags: week cs/prog-fund
+tags: week
+parentCourse: "[[Courses/Semester 1a/Programming Fundamentals]]"
 ---
 
 ## Lecture 3
@@ -173,5 +174,3 @@ while (b!=0) {
 ### Functions
 
 - They exist. Go read the syntax spec or something.
-
-#cs/prog-fund

@@ -2,7 +2,7 @@
 pageDecoration:
   icon: airplay
 tags: week
-parentCourse: [[Courses/Semester 1a/Introduction to CS]]
+parentCourse: "[[Courses/Semester 1a/Introduction to CS]]"
 ---
 
 # Week 2

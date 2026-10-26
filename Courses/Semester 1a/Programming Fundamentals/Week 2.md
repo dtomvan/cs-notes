@@ -2,6 +2,7 @@
 pageDecoration:
   icon: airplay
 tags: week
+parentCourse: "[[Courses/Semester 1a/Programming Fundamentals]]"
 ---
 
 # Week 2

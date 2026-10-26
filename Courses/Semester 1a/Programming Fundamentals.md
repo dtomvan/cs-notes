@@ -26,7 +26,8 @@ tags: course
 Weekly notes:
 
 <!--#lua query[[
-  from p = index.contentPages("cs/prog-fund")
+  from p = index.contentPages("week")
+  where p.parentCourse == "[[" .. editor.getCurrentPage() .. "]]"
   select templates.pageItem(p)
 ]] -->
 * [[Courses/Semester 1a/Programming Fundamentals/Week 2]]

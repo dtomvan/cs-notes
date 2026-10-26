@@ -1,7 +1,8 @@
 ---
 pageDecoration:
   icon: airplay
-tags: week cs/prog-fund
+tags: week
+parentCourse: "[[Courses/Semester 1a/Programming Fundamentals]]"
 ---
 
 ## Week 6
@@ -40,5 +41,3 @@ Date: 2026-10-08
   - Subset or equal: $\subseteq$
   - Xor (symmetric difference): $\oplus$
 - Bitwise operations: `|`, `&`, `~`, `^`, `<<`, `>>`
-
-#cs/prog-fund

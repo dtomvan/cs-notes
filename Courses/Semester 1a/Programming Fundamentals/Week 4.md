@@ -1,7 +1,8 @@
 ---
 pageDecoration:
   icon: airplay
-tags: week cs/prog-fund
+tags: week
+parentCourse: "[[Courses/Semester 1a/Programming Fundamentals]]"
 ---
 
 ## Lecture 6
@@ -39,5 +40,3 @@ Date: Thu 24 Sep 2026 (2026-09-24)
 - Ref:
     - `int p; int *addr = &p;`
 
-## 
-#cs/prog-fund
