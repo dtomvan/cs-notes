@@ -13,12 +13,16 @@
 
 ---
 
-${
+<!--#lua 
 query[[
   from p = index.contentPages("cs/intro")
   select templates.pageItem(p)
 ]]
-}
+ -->
+* [[Courses/Semester 1a/Introduction to CS/Week 1]]
+* [[Courses/Semester 1a/Introduction to CS/Week 2]]
+* [[Courses/Semester 1a/Introduction to CS/Week 3]]
+<!--/lua-->
 
 ${query [[
   from p = index.documents()

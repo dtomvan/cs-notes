@@ -20,10 +20,15 @@
 
 Weekly notes:
 
-${query[[
+<!--#lua query[[
   from p = index.contentPages("cs/prog-fund")
   select templates.pageItem(p)
-]]}
+]] -->
+* [[Courses/Semester 1a/Programming Fundamentals/Week 2]]
+* [[Courses/Semester 1a/Programming Fundamentals/Week 3]]
+* [[Courses/Semester 1a/Programming Fundamentals/Week 4]]
+* [[Courses/Semester 1a/Programming Fundamentals/Week 6]]
+<!--/lua-->
 
 PDFs:
 ${query [[

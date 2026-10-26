@@ -12,13 +12,21 @@
 ---
 
 Weekly notes:
-${
+<!--#lua 
 query[[
   from p = index.contentPages()
   where string.startsWith(p.ref, editor.getCurrentPage() .. "/")
   select templates.pageItem(p)
 ]]
-}
+ -->
+* [[Courses/Semester 1a/Introduction to Logic/Week 1]]
+* [[Courses/Semester 1a/Introduction to Logic/Week 2]]
+* [[Courses/Semester 1a/Introduction to Logic/Week 3]]
+* [[Courses/Semester 1a/Introduction to Logic/Week 4]]
+* [[Courses/Semester 1a/Introduction to Logic/Week 5]]
+* [[Courses/Semester 1a/Introduction to Logic/Week 6]]
+* [[Courses/Semester 1a/Introduction to Logic/Week 7]]
+<!--/lua-->
 
 PDFs:
 
