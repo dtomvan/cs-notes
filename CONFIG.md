@@ -76,7 +76,7 @@ view.define {
     if meta.parentCourse then
       return widget.new {
         markdown = spacelua.interpolate([==[
-**Note:** These week notes belong to the ${parent} course.
+**Up:** ${parent}
 ]==], {parent=meta.parentCourse}),
       }
     end
