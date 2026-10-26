@@ -1,3 +1,9 @@
+---
+  pageDecoration:
+    icon: book-open
+  tags: course
+---
+
 # Discrete structures
 
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS011-05#WBCS011-05.2026-2027.1

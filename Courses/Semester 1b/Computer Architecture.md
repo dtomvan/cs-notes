@@ -1,3 +1,9 @@
+---
+  pageDecoration:
+    icon: book-open
+  tags: course
+---
+
 # Computer Architecture
 
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS010-05#WBCS010-05.2026-2027.1

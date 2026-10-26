@@ -5,6 +5,7 @@ This now runs [Silverbullet](https://silverbullet.md). Partly replaces copyparty
 ${
 query [[
   from p = index.contentPages("course")
+  group by utils.getPageDirectory(p.name)
 ]]
 }
 
