@@ -15,9 +15,9 @@ command: Create Course
 #mac: "Cmd-Alt-q"
 ## To prefill frontmatter
 frontmatter: |
-    pageDecoration:
-    icon: airplay
-  tags: week cs/COURSE_ID
+  pageDecoration:
+    icon: book-open
+  tags: course
 ## To manage the order in which the page templates appear
 #priority: 10
 ---

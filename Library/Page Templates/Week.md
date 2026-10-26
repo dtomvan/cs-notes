@@ -19,6 +19,7 @@ frontmatter: |
   pageDecoration:
     icon: airplay
   tags: week cs/COURSE_ID
+  parentCourse: "[[${utils.getPageDirectory(editor.getCurrentPage())}]]"
   
 ## To manage the order in which the page templates appear
 #priority: 10
@@ -28,3 +29,4 @@ frontmatter: |
 ## Lecture |^|
 
 - Date: ${date.today()}
+- Topic: 
