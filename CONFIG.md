@@ -17,8 +17,6 @@ html {
 }
 ```
 
-${config.get("sync.documents")}
-${system.}
 ```space-lua
 config.set("sync.documents", system.getProfile().username == "tom")
 ```
