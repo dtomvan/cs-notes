@@ -30,6 +30,7 @@ code, pre, .sb-line-fenced-code {
 .sb-frontmatter-preview:has(.gotoParentCourse) {
   background-color: var(--subtle-background-color);
   padding: 2em;
+  padding-bottom: 2em!important;
 }
 ```
 

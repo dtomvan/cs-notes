@@ -24,10 +24,8 @@ ${query[[
   select templates.pageItem(p)
 ]]}
 
-<!--#lua query [[
+${query [[
   from p = index.documents()
   where string.startsWith(p.name, editor.getCurrentPage()) and p.contentType == "application/pdf"
   select templates.pageItem(p)
-]] -->
-*(empty table)*
-<!--/lua-->
+]]}
