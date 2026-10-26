@@ -1,7 +1,7 @@
 ---
   pageDecoration:
     icon: book-open
-  tags: coursecs/COURSE_ID
+  tags: course
 ---
 # Introduction to CS
 

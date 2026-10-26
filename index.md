@@ -2,6 +2,12 @@ This now runs [Silverbullet](https://silverbullet.md). Partly replaces copyparty
 
 # Year 1
 
+${
+query [[
+  from p = index.contentPages("course")
+]]
+}
+
 ## Semester 1a
 - [[Courses/Semester 1a/Programming Fundamentals|Programming Fundamentals]]
 - [[Courses/Semester 1a/Introduction to Logic|Introduction to Logic]]
