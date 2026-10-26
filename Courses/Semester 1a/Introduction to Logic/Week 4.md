@@ -1,6 +1,8 @@
 ## Lecture 7 & 8
 
 Date: 2026-09-21 & 2026-09-22
+Slides:
+- [[Courses/Semester 1a/Introduction to Logic/L4.pdf]]
 
 ### Logical laws
 

@@ -3,7 +3,6 @@
 Slides:
 - [[Courses/Semester 1a/Introduction to Logic/L1.5.pdf]]
 - [[Courses/Semester 1a/Introduction to Logic/L2.pdf]]
-- [[Courses/Semester 1a/Introduction to Logic/L3.pdf]]
 
 ## Lecture 3 and 4
 
