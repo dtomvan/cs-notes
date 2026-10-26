@@ -5,7 +5,7 @@
 ### Catppuccin :D
 
 ```space-style
-/* priority: 1 */
+/* priority: 200 */
 /* catppuccin */
 html[data-theme="light"] {
 --base00: #eff1f5;
@@ -50,7 +50,7 @@ html[data-theme="dark"] {
 ## CSS Variables Mapping
 
 ```space-style
-/* priority: 1 */
+/* priority: 200 */
 html,
 html[data-theme="light"],
 html[data-theme="dark"] {
