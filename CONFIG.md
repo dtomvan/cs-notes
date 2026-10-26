@@ -63,6 +63,30 @@ view.define {
   end,
 }
 view.open("courses")
+
+view.define {
+  name = "belongs-to-course",
+  dock = "page-top",
+  frame = "minimal",
+  content = function()
+    local meta = editor.getCurrentPageMeta()
+    if not meta then
+      return
+    end
+    if meta.parentCourse then
+      return widget.new {
+        markdown = spacelua.interpolate([==[
+**Note:** These week notes belong to the ${parent} course.
+]==], {parent=meta.parentCourse}),
+      }
+    end
+  end,
+}
 ```
 
 #meta
+
+```space-lua
+-- managed-by: configuration-manager
+config.set("frontmatterFolding.foldByDefault", "always")
+```
