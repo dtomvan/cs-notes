@@ -6,7 +6,7 @@ ${
 query [[
   from p = index.contentPages("course")
   group by utils.getPageDirectory(p.name)
-  select template.new [==[${key}]==]
+  select (template.new [==[${_}]==])({semester= _.key, page = _.group})
 ]]
 }
 
