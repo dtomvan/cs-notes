@@ -13,6 +13,11 @@
 
 ---
 
-- [Week 1](</intro-cs/Week 1>)
-- [Week 2](</intro-cs/Week 2>)
-- [Week 3](</intro-cs/Week 3>)
+${
+query[[
+  from p = index.contentPages("cs/intro")
+  select templates.pageItem(p)
+]]
+}
+
+${index.documents()}

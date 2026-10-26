@@ -34,3 +34,4 @@ Date: Thu 24 Sep 2026 (2026-09-24)
     - `int p; int *addr = &p;`
 
 ## 
+#cs/prog-fund

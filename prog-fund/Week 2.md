@@ -1,3 +1,7 @@
+---
+tags: cs/prog-fund
+---
+
 # Week 2
 
 ## Lecture 1

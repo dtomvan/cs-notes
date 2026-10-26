@@ -132,3 +132,5 @@ I was sick that day... no notes.
 ### Proofs with conditionals
 
 ### Proofs with biconditionals
+
+#cs/logic

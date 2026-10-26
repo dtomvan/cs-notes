@@ -34,3 +34,5 @@ Date: 2026-10-08
   - Subset or equal: $\subseteq$
   - Xor (symmetric difference): $\oplus$
 - Bitwise operations: `|`, `&`, `~`, `^`, `<<`, `>>`
+
+#cs/prog-fund

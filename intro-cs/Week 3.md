@@ -18,3 +18,4 @@ Date: Tue 15 September 2026 (2026-09-15)
 ### Intelligent systems
 
 
+#cs/intro

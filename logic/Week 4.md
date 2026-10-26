@@ -112,3 +112,5 @@ politicians B and C, who are dishonest. The 1st premise is true, because 2/3 of
 the politicians (B and C) are dishonest, meaning the majority is dishonest. The
 2nd premise is also true, because Al gore is a politician. But Al gore is
 honest, so the conclusion doesn't follow.
+
+#cs/logic

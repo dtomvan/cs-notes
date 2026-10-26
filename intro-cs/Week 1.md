@@ -52,3 +52,5 @@ Date: Tue 1 Sep 2026 (2026-09-01)
 - 36-38: Turing test
 - 40: arrested for being gay, chemical castration
 - 41: suicide
+
+#cs/intro

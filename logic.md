@@ -11,9 +11,9 @@
 
 ---
 
-- [Week 1](</logic/Week 1>)
-- [Week 2](</logic/Week 2>)
-- [Week 3](</logic/Week 3>)
-- [Week 4](</logic/Week 4>)
-- [Week 5](</logic/Week 5>)
-- [Week 6](</logic/Week 6>)
+${
+query[[
+  from p = index.contentPages("cs/logic")
+  select templates.pageItem(p)
+]]
+}

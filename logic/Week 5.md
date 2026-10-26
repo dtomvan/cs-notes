@@ -49,3 +49,5 @@ _Obsersation:_ we can write previous arguments into FOL now (translation key omi
 - Exactly two: $\exists x \exists y (x = y \land \forall z (A(z) \leftrightarrow (x = z \lor y = z)))$
 - At least two: $\exists x \exists y (\neg (x = y) \land P(x) \land P(y))$
 - At most two: $\forall x \forall y \forall z ((P(x) \land P(y) \land P(z)) \rightarrow (x = y \lor x = z \lor y = z)$
+
+#cs/logic
