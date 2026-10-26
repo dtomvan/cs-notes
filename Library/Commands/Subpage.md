@@ -10,8 +10,11 @@ end
 
 function utils.getPageName(page)
   local split = string.split(page, "/")
-  
-  return path
+  local last = page
+  for part in split do
+    last = part
+  end
+  return last
 end
 
 command.define {

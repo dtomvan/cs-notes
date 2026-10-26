@@ -1,7 +1,7 @@
 ---
-pageDecoration: 
-  icon: book-open
-tags: course
+  pageDecoration:
+    icon: airplay
+  tags: week cs/COURSE_ID
 ---
 # Introduction to CS
 
