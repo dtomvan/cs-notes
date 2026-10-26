@@ -17,7 +17,7 @@
 
 ${
 query[[
-  select p from 
+  from p = index.contentPages()
 ]]
 }
 
