@@ -5,10 +5,11 @@ This now runs [Silverbullet](https://silverbullet.md). Partly replaces copyparty
 ${
 query [[
   from p = index.contentPages("course")
-  group by utils.getPageDirectory(p.name)
-  select (template.new [==[${_}]==])({semester= _.key, page = _.group})
+  group by utils.getPageName(utils.getPageDirectory(p.name))
+  select (template.new([==[- ${_.semester}:]==] .. "\n  ${template.each(_, templates.pageItem)}"))({semester = _.key, page = _.group})
 ]]
 }
+
 
 ## Semester 1a
 - [[Courses/Semester 1a/Programming Fundamentals|Programming Fundamentals]]

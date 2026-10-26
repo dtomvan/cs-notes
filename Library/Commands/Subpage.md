@@ -3,9 +3,7 @@
 
 utils = utils or {}
 function utils.getPageDirectory(page)
-  local path = string.gsub(page, "/*[^/]+$", "")
-  if path ~= "" then path = path .. "/" end
-  return path
+  return string.gsub(page, "/*[^/]+$", "")
 end
 
 function utils.getPageName(page)
@@ -22,6 +20,7 @@ command.define {
   run = function()
     local current = editor.getCurrentPage()
     local path = utils.getPageDirectory(current)
+    if path ~= "" then path = path .. "/" end
     local name = editor.prompt("Enter name of new page", path)
     if not name then return else editor.navigate(name) end
   end
