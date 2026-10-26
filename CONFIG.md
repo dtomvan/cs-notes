@@ -16,3 +16,8 @@ html {
   --editor-font: "AporeticSansM Nerd Font", monospace!important;
 }
 ```
+
+```space-lua
+-- managed-by: configuration-manager
+config.set("sync.documents", system.getProfile().username == "tom")
+```
