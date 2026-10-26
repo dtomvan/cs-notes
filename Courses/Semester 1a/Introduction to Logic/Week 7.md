@@ -2,6 +2,7 @@
 pageDecoration:
   icon: airplay
 tags: week
+parentCourse: [[Courses/Semester 1a/Introduction to Logic]]
 ---
 
 Slides: [[Courses/Semester 1a/Introduction to Logic/L7.pdf]]

@@ -2,6 +2,7 @@
 pageDecoration:
   icon: airplay
 tags: week
+parentCourse: [[Courses/Semester 1a/Introduction to Logic]]
 ---
 
 ## Lecture 1
@@ -295,8 +296,7 @@ Conj. Elim:
 2 | P  ∧Elim: 1
 ```
 
-<details>
-<summary>Example: *rearranging conjunction sentences*</summary>
+Example: *rearranging conjunction sentences*
 
 ```
 1 | P ∧ (Q ∧ R)
@@ -308,7 +308,3 @@ Conj. Elim:
 6 | Q ∧ P               ∧ Intro: 3, 5
 7 | (Q ∧ P) ∧ R         ∧ Intro: 6, 4
 ```
-
-</details>
-
-#cs/logic

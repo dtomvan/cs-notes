@@ -2,6 +2,7 @@
 pageDecoration:
   icon: airplay
 tags: week
+parentCourse: [[Courses/Semester 1a/Introduction to CS]]
 ---
 
 
@@ -23,6 +24,3 @@ Date: Tue 15 September 2026 (2026-09-15)
 - About different ways of connecting CPU's with each other and with memory and so on.
 
 ### Intelligent systems
-
-
-#cs/intro
