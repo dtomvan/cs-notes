@@ -4,17 +4,17 @@ Date: 2026-09-21 & 2026-09-22
 
 ### Logical laws
 
-- Def ->: \\((P \rightarrow Q) \Leftrightarrow (\neg P \lor Q)\\)
-- Def <->: \\((P \leftrightarrow Q) \Leftrightarrow ((P \rightarrow Q) \land (Q \rightarrow P))\\)
+- Def ->: $(P \rightarrow Q) \Leftrightarrow (\neg P \lor Q)$
+- Def <->: $(P \leftrightarrow Q) \Leftrightarrow ((P \rightarrow Q) \land (Q \rightarrow P))$
 - De Morgan laws
-    - \\(\neg(P \lor Q) \Leftrightarrow \neg P \land \neg Q\\)
-    - \\(\neg(P \land Q) \Leftrightarrow \neg P \lor \neg Q\\)
+    - $\neg(P \lor Q) \Leftrightarrow \neg P \land \neg Q$
+    - $\neg(P \land Q) \Leftrightarrow \neg P \lor \neg Q$
 - ACI laws
-    - Associativity: \\((P \land Q) \land R \Leftrightarrow P \land (Q \land R)\\)
-    - Commutativity: \\(P \land R \Leftrightarrow R \land P\\)
-    - Idempotence: \\((P \land P) \Leftrightarrow P\\)
+    - Associativity: $(P \land Q) \land R \Leftrightarrow P \land (Q \land R)$
+    - Commutativity: $P \land R \Leftrightarrow R \land P$
+    - Idempotence: $(P \land P) \Leftrightarrow P$
 - Distributivity laws
-    - i.e.: \\(P \lor (Q \land R) \Leftrightarrow (P \lor Q) \land (P \lor R)\\)
+    - i.e.: $P \lor (Q \land R) \Leftrightarrow (P \lor Q) \land (P \lor R)$
     - Beware: there's left and right-distrib. If you have right-distrib, write the correct order!
 
 <details>
@@ -84,7 +84,7 @@ Date: 2026-09-21 & 2026-09-22
 - **Claim:** for n-ary connectives defined by a truth table can be also defined by a sentence with only and,or,neg
     - The fun part: you'll get a DNF formula, which means you can indeed write any formula as DNF, because you can write *any truth table* as DNF!!
 - TT-completeness: and,or,neg is a complete set of connectives, that is, you can do anything
-- You can even do it with 2: \\(P \lor Q \rightarrow \neg\neg(P \lor Q) \rightarrow \neg(\neg P \land \neg Q)\\)
+- You can even do it with 2: $P \lor Q \rightarrow \neg\neg(P \lor Q) \rightarrow \neg(\neg P \land \neg Q)$
     - Also, the other way around!
     - It's just De Morgan!
 - Just nor or nand is actually truth-functionally complete! Because for example you can do negation with `!(P && P) == !P`

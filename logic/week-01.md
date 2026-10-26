@@ -228,11 +228,11 @@ This is also in the slides.
 - Compound sentences: we combine atomic sentences to declare conjunction, disjunction, etc.
 - The truth value of a compound sentence is dependent on the truth value of its parts
 
-- Negation: \\(\neg\\) "not" (`!`)
-- Conjunction: \\(\land\\) "and" (`&&`)
-- Disjunction: \\(\lor\\) "or" (`||`)
-- True: \\(\top\\)
-- False: \\(\bot\\) (\\(\top = \neg \bot\\))
+- Negation: $\neg$ "not" (`!`)
+- Conjunction: $\land$ "and" (`&&`)
+- Disjunction: $\lor$ "or" (`||`)
+- True: $\top$
+- False: $\bot$ ($\top = \neg \bot$)
 - Formula: atomic sentences + compound sentences
 
 #### How do we translate natural language into logic?
@@ -252,18 +252,18 @@ Atomic sentences:
 
 Compound sentence:
 
-\\((P \land \neg Q) \lor (R \land S)\\)
+$(P \land \neg Q) \lor (R \land S)$
 
 #### NB: ambiguity
 
-- Use parentheses in your homework and exams to prevent ambiguity like in \\(A \land B \lor C\\)
-- Use: \\((A \land B) \lor C\\) **or** \\(A \land (B \lor C)\\)
+- Use parentheses in your homework and exams to prevent ambiguity like in $A \land B \lor C$
+- Use: $(A \land B) \lor C$ **or** $A \land (B \lor C)$
 
 ### Proof with Boolean connectives
 
 #### Proof of conjunction
 
-- Claim: \\(P \land Q\\)
+- Claim: $P \land Q$
 - Proof method: prove both P and Q
 
 Conj. Intro:

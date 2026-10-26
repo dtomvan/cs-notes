@@ -24,13 +24,13 @@ Date: 2026-10-08
   - You get to do shit with the data type, but not directly access the data
   - Also you keep hidden how it is implemented
 - Sets, I guess
-  - Union (\\(\lor\\)) (actually \\(\cup\\) but OK)
-  - Intersection (\\(\land\\)) (actually \\(\cap\\) but OK)
-  - Contains op \\(\in\\)
-  - Not contains op \\(\notin\\)
-  - Difference \\(\setminus\\)
-  - Set equality: \\(S = T \leftrightarrow \forall x (x \in S \rightarrow x \in T)\\)
-  - Subset but not equal: \\(\subset\\)
-  - Subset or equal: \\(\subseteq\\)
-  - Xor (symmetric difference): \\(\oplus\\)
+  - Union ($\lor$) (actually $\cup$ but OK)
+  - Intersection ($\land$) (actually $\cap$ but OK)
+  - Contains op $\in$
+  - Not contains op $\notin$
+  - Difference $\setminus$
+  - Set equality: $S = T \leftrightarrow \forall x (x \in S \rightarrow x \in T)$
+  - Subset but not equal: $\subset$
+  - Subset or equal: $\subseteq$
+  - Xor (symmetric difference): $\oplus$
 - Bitwise operations: `|`, `&`, `~`, `^`, `<<`, `>>`

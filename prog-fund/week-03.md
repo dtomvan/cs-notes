@@ -19,7 +19,7 @@ Date: Thu 17 Sep 2026 (2026-09-17)
 
 ### Exponentiation
 
-- Accomplish: \\(c = a^b\\)
+- Accomplish: $c = a^b$
 - Assume: no overflow
 
 ```c
@@ -58,7 +58,7 @@ while (b > 0) {
 ### Modular arithmetic
 
 For integers `n` and `d > n` we have:
-\\(n = (n / d) * d + r\\) and \\(0 \le r \lt d\\)
+$n = (n / d) * d + r$ and $0 \le r \lt d$
 where `r = n mod d`. (remainder division)
 
 - **Lemma 1:** for modular *addition* we have `(a + b) % d == ((a % d) + (b % d)) % d`. The rhs is *much* faster to compute for large values of `a` and `b` (and smaller values of `d` 

@@ -8,10 +8,10 @@ Topic: Boolean connectives and Formal Proofs
 
 ### Formal Proofs for Conjunction and Disjunction
 
-- We know how to prove `P` from \\(P \land Q\\) (`and elim`)
-- Now for \\(\lor\\)
-- **Intro:** In order to prove \\(P \lor Q\\) we have to either prove `P` or `Q` and the condition is satisfied
-- **Elim:** If we have already established \\(P \lor Q\\) we cannot really conclude anything about `P` and `Q` seperately, but maybe some `R`
+- We know how to prove `P` from $P \land Q$ (`and elim`)
+- Now for $\lor$
+- **Intro:** In order to prove $P \lor Q$ we have to either prove `P` or `Q` and the condition is satisfied
+- **Elim:** If we have already established $P \lor Q$ we cannot really conclude anything about `P` and `Q` seperately, but maybe some `R`
     - We don't know if `P` or `Q` holds, but we can prove that given `P` we can derive `R` or given `Q` we can derive `R`
 
 Example of both (commutativity of disjunction):
@@ -55,7 +55,7 @@ or even (assiociativity or disjunction):
 
 ### Formal Proofs for Negation and Falsity
 
-- **Claim**: \\(\neg P\\)
+- **Claim**: $\neg P$
 - **Proof method**: Suppose that `P` holds, and arrive at a contradiction (achieve both `P` and `!P`).
 
 Examples:
@@ -84,14 +84,14 @@ i
 ### Conditionals
 
 - implication
-    - \\(P \rightarrow Q\\)
+    - $P \rightarrow Q$
     - says that:
         - P is a *sufficient* condition for Q (that is, if P then Q, but there may be other ways to achieve Q)
         - Q is a *nessecary* condition for P
     - If P is false, then `P -> Q` is always true.
     - The arrow doesn't imply causality though.
-- *if-then-else*: "If P then Q else R" translates to \\((P \rightarrow Q) \land (\neg P \rightarrow R)\\)
-- **if and only if**: "iff" translates to \\(\leftrightarrow\\) (or \\((P \rightarrow Q) \land (Q \rightarrow P)\\))
+- *if-then-else*: "If P then Q else R" translates to $(P \rightarrow Q) \land (\neg P \rightarrow R)$
+- **if and only if**: "iff" translates to $\leftrightarrow$ (or $(P \rightarrow Q) \land (Q \rightarrow P)$)
     - Sort-of equality check: the bic evals to T if both `P` and `Q` have the same truth value
 
 ## Lecture 5

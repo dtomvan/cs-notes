@@ -4,8 +4,8 @@ Date: 2026-10-05
 
 ### Translating and Counting with Quantifiers
 
-- "Everyone who owns a dog, must take good care of it": \\(\forall x \forall y ((Dog(y) \land Owns(x, y)) \rightarrow GoodCare(x,y))\\)
-- \\(\exists y \forall x \implies \forall x \exists y\\), but not the other way around
+- "Everyone who owns a dog, must take good care of it": $\forall x \forall y ((Dog(y) \land Owns(x, y)) \rightarrow GoodCare(x,y))$
+- $\exists y \forall x \implies \forall x \exists y$, but not the other way around
 
 ### Proof methods and rules
 
