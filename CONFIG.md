@@ -7,6 +7,10 @@ config.set {
   }
 }
 
+
+```
+```space-lua
+-- priority: 99
 actionButton.define {
   icon = "sidebar",
   description = "Sidebar",
