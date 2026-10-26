@@ -20,12 +20,10 @@
 
 Weekly notes:
 
-${
-query[[
+${query[[
   from p = index.contentPages("cs/prog-fund")
   select templates.pageItem(p)
-]]
-}
+]]}
 
 PDFs:
 ${query [[
