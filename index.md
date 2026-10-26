@@ -4,5 +4,6 @@
 - [[logic|Introduction to Logic]]
 - [[intro-cs|Introduction to CS]]
 
+${datastore.}
 
 ${editor.invokeCommand("Navigate: Tree") or ""}
