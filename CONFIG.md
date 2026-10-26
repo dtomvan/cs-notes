@@ -26,6 +26,11 @@ code, pre, .sb-line-fenced-code {
 .sb-frontmatter {
   opacity: .5;
 }
+
+.gotoParentCourse {
+  background-color: var(--subtle-background-color);
+  padding: 2em;
+}
 ```
 
 
@@ -82,6 +87,7 @@ view.define {
         markdown = spacelua.interpolate([==[
 **Up:** ${parent}
 ]==], {parent=meta.parentCourse}),
+        cssClasses = { "gotoParentCourse" }
       }
     end
   end,
