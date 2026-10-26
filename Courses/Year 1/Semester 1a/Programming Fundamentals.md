@@ -5,7 +5,7 @@ tags: course
 ---
 # Programming fundamentals
 
-- Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS046-10>
+- Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS046-10
 - Lecturer: Dr. Arnold Meijster
 - Mail: [a.meijster@rug.nl](mailto:a.meijster@rug.n) but preferably [progfunrug@gmail.com](mailto:progfunrug@gmail.com)
 - Books
