@@ -12,11 +12,18 @@ function sub.dir()
 end
 
 command.define {
-  name = "Create Subpage",
+  name = "Create sibling page",
   run = function()
-    newpath = sub.dir()
-    editor.prompt("Create ")
-    editor.navigate(newpath..'New')
+    local newpath = sub.dir()
+    editor.navigate(editor.prompt("Create new page under "..newpath, newpath))
+  end
+}
+
+command.define {
+  name = "Create subpage",
+  run = function()
+    local newpath = editor.getCurrentPage()
+    editor.navigate(editor.prompt("Create new page under "..newpath, newpath .. "/"))
   end
 }
 ```
