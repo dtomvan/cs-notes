@@ -22,6 +22,10 @@ code, pre, .sb-line-fenced-code {
   font-size: large!important;
   margin: auto;
 }
+
+.sb-frontmatter {
+  opacity: .5;
+}
 ```
 
 
