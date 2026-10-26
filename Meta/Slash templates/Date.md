@@ -2,7 +2,7 @@
 slashcommand.define {
   name = "date",
   run = function()
-    editor.insertAtCursor(os.date("%Y-%M-%d"))
+    editor.insertAtCursor(date.today())
   end
 }
 ```
