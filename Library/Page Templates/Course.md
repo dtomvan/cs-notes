@@ -3,7 +3,7 @@ tags: "meta/template/page"
 ## Uncomment any of the single-commented lines to set options
 #############################################################
 ## Offer a suggested name when triggered
-suggestedName: "Courses/"
+suggestedName: "Courses/Semester 1b/"
 ## Whether or not to confirm the suggestedName or go there directly
 confirmName: true
 ## To open a page if it already exists rather than create it fresh
