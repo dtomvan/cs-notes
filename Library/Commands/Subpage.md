@@ -8,6 +8,12 @@ function utils.getPageDirectory(page)
   return path
 end
 
+function utils.getPageName(page)
+  local split = string.split(page, "/")
+  
+  return path
+end
+
 command.define {
   name = "Page: Create Page",
   run = function()
