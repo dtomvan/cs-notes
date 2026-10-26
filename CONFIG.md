@@ -11,7 +11,11 @@ actionButton.define {
 ```space-style
 html {
   --ui-font: "Inter", sans-serif!important;
-  --editor-font: "AporeticSansM Nerd Font", monospace!important;
+  --editor-font: "Inter", sans-serif;
+}
+
+code, pre {
+  font-family: "AporeticSansM Nerd Font", monospace;
 }
 
 #sb-current-page {
