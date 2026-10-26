@@ -54,20 +54,14 @@ tag.define {
     o.pageDecoration = { icon = "airplay" }
     return o
   end,
-  content = function()
-    local meta = editor.getCurrentPageMeta()
-    if not meta then
-      return
-    end
-    if meta.parentCourse then
+  renderFrontmatter = function(meta)
       return widget.new {
         markdown = spacelua.interpolate([==[
 **Up:** ${parent}
 ]==], {parent=meta.parentCourse}),
         cssClasses = { "gotoParentCourse" }
       }
-    end
-  end
+  end,
 }
 ```
 
