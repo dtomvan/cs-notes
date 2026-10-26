@@ -4,9 +4,9 @@
 - Lecturer: Dr. Arnold Meijster
 - Mail: [a.meijster@rug.nl](mailto:a.meijster@rug.n) but preferably [progfunrug@gmail.com](mailto:progfunrug@gmail.com)
 - Books
-  - Program Proofs
+  - Program Proofs (https://u.toostveen.nl/dafny)
   - ANSI C (by Ritchie himself)
-  - Reader in Brightspace
+  - Reader (https://u.toostveen.nl/ipinc)
 - Reit: HW at [Themis](https://themis.housing.rug.nl)
 - Assessment:
   - 3 subexaminations (mean of them needs to be 5)

@@ -1,6 +1,7 @@
 # Introduction to CS
 
-- Ocasys: <https://ocasys.rug.nl/current/catalog/course/WBCS005-05>
+- Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS005-05
+- Book: https://u.toostveen.nl/ics
 
 ---
 
