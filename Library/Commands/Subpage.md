@@ -1,29 +1,22 @@
 
 ```space-lua
-sub=sub or {}
-
--- Return the current directory path
-function sub.dir()
-  dir = editor.getCurrentPageMeta()
-  -- Find last occurence of /
-  i = string.find(dir.name, "/[^/]*$")
-  path = string.sub(dir.name,1,i)
-  return path
-end
-
 command.define {
-  name = "Create sibling page",
+  name = "Page: Create Page",
   run = function()
-    local newpath = sub.dir()
-    editor.navigate(editor.prompt("Create new page under "..newpath, newpath))
+    local current = editor.getCurrentPage()
+    local path = string.gsub(current, "/*[^/]+$", "")
+    if path ~= "" then path = path .. "/" end
+    local name = editor.prompt("Enter name of new page", path)
+    if not name then return else editor.navigate(name) end
   end
 }
 
 command.define {
-  name = "Create subpage",
+  name = "Page: Create Subpage",
   run = function()
-    local newpath = editor.getCurrentPage()
-    editor.navigate(editor.prompt("Create new page under "..newpath, newpath .. "/"))
+    local current = editor.getCurrentPage()
+    local name = editor.prompt("Enter name of new subpage", current .. "/")
+    if not name then return else editor.navigate(name) end
   end
 }
 ```
