@@ -7,6 +7,11 @@ config.set {
   }
 }
 
+actionButton.define {
+  icon = "sidebar",
+  description = "Sidebar",
+  command = "Navigate: Tree",
+}
 
 ```
 
