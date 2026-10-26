@@ -23,4 +23,8 @@ html {
   --ui-font: "Inter", sans-serif!important;
   --editor-font: "AporeticSansM Nerd Font", monospace!important;
 }
+
+#sb-current-page {
+  font-size: medium!important;
+}
 ```
