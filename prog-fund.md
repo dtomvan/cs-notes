@@ -15,7 +15,14 @@
 
 ---
 
+${
+query[[
+  select p from 
+]]
+}
+
 - [Week 2](</prog-fund/Week 2>)
 - [Week 3](</prog-fund/Week 3>)
 - [Week 4](</prog-fund/Week 4>)
 - [Week 6](</prog-fund/Week 6>)
+- [[Week 7]]
