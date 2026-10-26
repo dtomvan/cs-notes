@@ -1,3 +1,7 @@
+---
+pageDecoration: 
+  icon: book-open
+---
 # Introduction to CS
 
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS005-05
