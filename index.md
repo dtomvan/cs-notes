@@ -1,15 +1,7 @@
 This now runs [Silverbullet](https://silverbullet.md). Partly replaces copyparty, party replaces the previous MDBook setup. How exciting.
 
 # Year 1
-
-${
-query [[
-  from p = index.contentPages("course")
-  group by utils.getPageName(utils.getPageDirectory(p.name))
-  select (template.new([==[## ${_.semester}]==] .. "\n${template.each(_.page, templates.pageItem)}"))({semester = _.key, page = _.group})
-]]
-}
-
+- [Copyparty](https://fs.toostveen.nl/pub/UG/CS-1)
 
 ## Semester 1a
 - [[Courses/Semester 1a/Programming Fundamentals|Programming Fundamentals]]
