@@ -23,16 +23,53 @@ code, pre, .sb-line-fenced-code {
   margin: auto;
 }
 
-.sb-frontmatter {
-  opacity: .5;
-}
-
 .gotoParentCourse {
   background-color: var(--subtle-background-color);
   padding: 2em;
 }
 ```
 
+```space-lua
+tag.define {
+  name = "course",
+  transform = function(o)
+    o.pageDecoration = { icon = "book-open" }
+    return o
+  end
+}
+
+tag.define {
+  name = "week",
+  schema = {
+    type = "object",
+    properties = {
+      parentCourse = {
+        type = "string",
+        description = "Parent course."
+      },
+      required = {"parentCourse"},
+    },
+  },
+  transform = function(o)
+    o.pageDecoration = { icon = "airplay" }
+    return o
+  end,
+  content = function()
+    local meta = editor.getCurrentPageMeta()
+    if not meta then
+      return
+    end
+    if meta.parentCourse then
+      return widget.new {
+        markdown = spacelua.interpolate([==[
+**Up:** ${parent}
+]==], {parent=meta.parentCourse}),
+        cssClasses = { "gotoParentCourse" }
+      }
+    end
+  end
+}
+```
 
 ```space-lua
 -- priority: 50
@@ -73,25 +110,6 @@ view.define {
 }
 view.open("courses")
 
-view.define {
-  name = "belongs-to-course",
-  dock = "page-top",
-  frame = "minimal",
-  content = function()
-    local meta = editor.getCurrentPageMeta()
-    if not meta then
-      return
-    end
-    if meta.parentCourse then
-      return widget.new {
-        markdown = spacelua.interpolate([==[
-**Up:** ${parent}
-]==], {parent=meta.parentCourse}),
-        cssClasses = { "gotoParentCourse" }
-      }
-    end
-  end,
-}
 ```
 
 #meta
