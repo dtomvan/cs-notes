@@ -1,3 +1,5 @@
+This now runs [Silverbullet](https://silverbullet.md). Partly replaces copyparty, party replaces the previous MDBook setup. How exciting.
+
 # Year 1
 
 ## Semester 1a
