@@ -1,11 +1,11 @@
 ---
 tags: week
-parentCourse: "[[Courses/Semester 1a/Introduction to Logic]]"
+parentCourse: "[[Courses/Year 1/Semester 1a/Introduction to Logic]]"
 ---
 
 ## Lecture 1
 
-Linked slides: [[Courses/Semester 1a/Introduction to Logic/L1.pdf]]
+Linked slides: [[Courses/Year 1/Semester 1a/Introduction to Logic/L1.pdf]]
 
 Date: Tue 1 Sep 2026 (2026-09-01)
 

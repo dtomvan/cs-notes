@@ -1,11 +1,11 @@
 ---
 tags: week
-parentCourse: "[[Courses/Semester 1a/Introduction to Logic]]"
+parentCourse: "[[Courses/Year 1/Semester 1a/Introduction to Logic]]"
 ---
 
 ## Lecture 5
 
-Slides: [[Courses/Semester 1a/Introduction to Logic/L5.pdf]]
+Slides: [[Courses/Year 1/Semester 1a/Introduction to Logic/L5.pdf]]
 
 ### Quantifiers
 

@@ -1,14 +1,14 @@
 ---
 tags: week
-parentCourse: "[[Courses/Semester 1a/Introduction to Logic]]"
+parentCourse: "[[Courses/Year 1/Semester 1a/Introduction to Logic]]"
 ---
 
 
 # Week 2
 
 Slides:
-- [[Courses/Semester 1a/Introduction to Logic/L1.5.pdf]]
-- [[Courses/Semester 1a/Introduction to Logic/L2.pdf]]
+- [[Courses/Year 1/Semester 1a/Introduction to Logic/L1.5.pdf]]
+- [[Courses/Year 1/Semester 1a/Introduction to Logic/L2.pdf]]
 
 ## Lecture 3 and 4
 

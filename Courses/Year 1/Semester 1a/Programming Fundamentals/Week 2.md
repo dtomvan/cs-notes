@@ -1,6 +1,6 @@
 ---
 tags: week
-parentCourse: "[[Courses/Semester 1a/Programming Fundamentals]]"
+parentCourse: "[[Courses/Year 1/Semester 1a/Programming Fundamentals]]"
 ---
 
 # Week 2

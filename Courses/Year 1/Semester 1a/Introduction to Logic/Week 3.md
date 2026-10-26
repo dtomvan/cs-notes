@@ -1,12 +1,12 @@
 ---
 tags: week
-parentCourse: "[[Courses/Semester 1a/Introduction to Logic]]"
+parentCourse: "[[Courses/Year 1/Semester 1a/Introduction to Logic]]"
 ---
 
 ## Lecture 5
 
 Date: Monday 14 september 2026 (2026-09-14)
-Slides: [[Courses/Semester 1a/Introduction to Logic/L3.pdf]]
+Slides: [[Courses/Year 1/Semester 1a/Introduction to Logic/L3.pdf]]
 
 ### Practice proofs
 

@@ -1,13 +1,13 @@
 ---
 tags: week
-parentCourse: "[[Courses/Semester 1a/Introduction to Logic]]"
+parentCourse: "[[Courses/Year 1/Semester 1a/Introduction to Logic]]"
 ---
 
 ## Lecture 7 & 8
 
 Date: 2026-09-21 & 2026-09-22
 Slides:
-- [[Courses/Semester 1a/Introduction to Logic/L4.pdf]]
+- [[Courses/Year 1/Semester 1a/Introduction to Logic/L4.pdf]]
 
 ### Logical laws
 

@@ -20,8 +20,8 @@ tags: course
 
 ---
 
-- [[Courses/Semester 1a/Programming Fundamentals/styleguideC.pdf|Style Guide]]
-- [[Courses/Semester 1a/Programming Fundamentals/IPinC2627.pdf|Imperative Programming in C]]
+- [[Courses/Year 1/Semester 1a/Programming Fundamentals/styleguideC.pdf|Style Guide]]
+- [[Courses/Year 1/Semester 1a/Programming Fundamentals/IPinC2627.pdf|Imperative Programming in C]]
 
 Weekly notes:
 
