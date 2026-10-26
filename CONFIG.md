@@ -7,7 +7,7 @@ config.set {
   }
 }
 
-editor.invokeCommand("Navigate: Tree")
+
 ```
 
 ```space-style

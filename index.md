@@ -3,3 +3,6 @@
 - [[prog-fund|Programming Fundamentals]]
 - [[logic|Introduction to Logic]]
 - [[intro-cs|Introduction to CS]]
+
+
+${editor.invokeCommand("Navigate: Tree") or ""}
