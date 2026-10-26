@@ -1,7 +1,7 @@
 ---
   pageDecoration:
-    icon: airplay
-  tags: week cs/COURSE_ID
+    icon: book-open
+  tags: coursecs/COURSE_ID
 ---
 # Introduction to CS
 
@@ -18,16 +18,11 @@
 
 ---
 
-<!--#lua 
-query[[
-  from p = index.contentPages("cs/intro")
+${query[[
+  from p = index.contentPages("week")
+  where p.parentCourse == "[[" .. editor.getCurrentPage() .. "]]"
   select templates.pageItem(p)
-]]
- -->
-* [[Courses/Semester 1a/Introduction to CS/Week 1]]
-* [[Courses/Semester 1a/Introduction to CS/Week 2]]
-* [[Courses/Semester 1a/Introduction to CS/Week 3]]
-<!--/lua-->
+]]}
 
 ${query [[
   from p = index.documents()

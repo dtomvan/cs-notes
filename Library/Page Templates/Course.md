@@ -37,8 +37,8 @@ Weekly notes:
 
 ${"$"}{
 query[[
-  from p = index.contentPages()
-  where string.startsWith(p.ref, editor.getCurrentPage() .. "/")
+  from p = index.contentPages("week")
+  where p.parentCourse == "[[" .. editor.getCurrentPage() .. "]]"
   select templates.pageItem(p)
 ]]
 }
