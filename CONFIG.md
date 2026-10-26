@@ -2,7 +2,7 @@
 config.set {
   silversearch = {
     ignore = {
-      "**.pdf"
+      "*.pdf"
     }
   }
 }
