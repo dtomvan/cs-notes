@@ -22,6 +22,7 @@ html {
 
 
 ```space-lua
+-- priority: 50
 view.define {
   name = "courses",
   title = "Courses",
