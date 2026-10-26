@@ -23,6 +23,10 @@ code, pre, .sb-line-fenced-code {
   margin: auto;
 }
 
+.sb-frontmatter:not(.gotoParentCourse) {
+  opacity: .5;
+}
+
 .gotoParentCourse {
   background-color: var(--subtle-background-color);
   padding: 2em;
