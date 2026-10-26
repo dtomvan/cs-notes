@@ -1,5 +1,7 @@
 # Week 2
 
+Slides: [[Courses/Semester 1a/Introduction to Logic/L1.5.pdf]]
+
 ## Lecture 3 and 4
 
 Date: Mon 7 Sep 2026 (2026-09-06) AND Tue 8 Sep 2026 (2026-09-06)

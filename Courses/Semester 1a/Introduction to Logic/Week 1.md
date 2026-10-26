@@ -1,5 +1,7 @@
 ## Lecture 1
 
+Linked slides: [[Courses/Semester 1a/Introduction to Logic/L1.pdf]]
+
 Date: Tue 1 Sep 2026 (2026-09-01)
 
 > Logic is the study of inferences and reasoning -> judging logic to be (in)correct
