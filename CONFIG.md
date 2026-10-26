@@ -27,7 +27,7 @@ code, pre, .sb-line-fenced-code {
   opacity: .5;
 }
 
-.sb-frontmatter-preview .gotoParentCourse {
+.sb-frontmatter-preview:has(.gotoParentCourse) {
   background-color: var(--subtle-background-color);
   padding: 2em;
 }
