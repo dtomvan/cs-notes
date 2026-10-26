@@ -15,9 +15,21 @@
 
 ---
 
+- [[Courses/Semester 1a/Programming Fundamentals/styleguideC.pdf|Style Guide]]
+- [[Courses/Semester 1a/Programming Fundamentals/IPinC2627.pdf|Imperative Programming in C]]
+
+Weekly notes:
+
 ${
 query[[
   from p = index.contentPages("cs/prog-fund")
   select templates.pageItem(p)
 ]]
 }
+
+PDFs:
+${query [[
+  from p = index.documents()
+  where string.startsWith(p.name, editor.getCurrentPage()) and p.contentType == "application/pdf"
+  select templates.pageItem(p)
+]]}

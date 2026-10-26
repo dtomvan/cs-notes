@@ -1,8 +1,14 @@
 ## Lecture 6
 
-Slides: [[Courses/Semester 1a/Introduction to Logic/L6.pdf]]
+Slides:
+- [[Courses/Semester 1a/Introduction to Logic/L6.pdf]]
+- [[Courses/Semester 1a/Introduction to Logic/L7.pdf]]
 
 Date: 2026-10-05
+
+Missed topics:
+- First-order models
+- Set theory
 
 ### Translating and Counting with Quantifiers
 
