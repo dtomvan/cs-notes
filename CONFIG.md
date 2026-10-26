@@ -57,6 +57,7 @@ view.define {
     end
   end,
 }
+view.open("courses")
 ```
 
 #meta
