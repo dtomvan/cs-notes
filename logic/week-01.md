@@ -4,7 +4,7 @@ Date: Tue 1 Sep 2026 (2026-09-01)
 
 > Logic is the study of inferences and reasoning -> judging logic to be (in)correct
 
-We will be doing abstract, formal, *symbolic* reasoning.
+We will be doing abstract, formal, _symbolic_ reasoning.
 
 ### Applications of logic in CS
 
@@ -72,10 +72,12 @@ A proof is a step-by-step demonstration that some conclusion follows from some p
 ### Atomic sentences in FOL
 
 An atomic sentence is a statement that:
+
 - Evals to T or F
 - Cannot be broken down into smaller sentences
 
 Built from:
+
 - constants (naming objects)
 - functions (mappings from A -> B)
 - predicates (functions that map to T or F)
@@ -85,7 +87,7 @@ Built from:
 
 - These constants must refer to one thing and one thing only: unambiguous.
 - By convention: constants are lowercase.
-- Must exist in the current *domain of discourse*.
+- Must exist in the current _domain of discourse_.
 
 #### Functions
 
@@ -112,7 +114,6 @@ father : D -> D
 - PascalCase
 - Also has arity
 
-
 <details>
 <summary>Example</summary>
 
@@ -121,6 +122,7 @@ Cube(b): b is a cube
 Small(b): b is small
 Larger(a,b): a is larger than b
 ```
+
 etc.
 
 </details>
@@ -133,22 +135,24 @@ etc.
 - Ex: `father(max) = father(mother(claire))`
 - `a = b` might be true; even though you have different constants, they may refer to the same object.
 - Beware: is != isa
-    - ddlv = Don Diego de la Vega
-    - zorro = Zorro
-    - `Don diego de la vega is Zorro` -> `ddlv = zorro`
-    - `Don diego de la vega is a Nobleman` -> `Nobleman(ddlv)` AND NOT `ddlv = nobleman`
+  - ddlv = Don Diego de la Vega
+  - zorro = Zorro
+  - `Don diego de la vega is Zorro` -> `ddlv = zorro`
+  - `Don diego de la vega is a Nobleman` -> `Nobleman(ddlv)` AND NOT `ddlv = nobleman`
 - Beware: predicates aren't symmetrical
-    - `Loves(romeo, juliet)`
-    - `Loves(juliet, romeo)`
-    - These aren't the same, because it doesn't have to be mutual.
+  - `Loves(romeo, juliet)`
+  - `Loves(juliet, romeo)`
+  - These aren't the same, because it doesn't have to be mutual.
 
 #### Examples
+
 - `2 < 5`
 - `x < 5`
 - `a+t >= min(3 + min(7, b+6), c)`
 - `Older(father(max), father(claire))`
 
-Examples of *INVALID* atomic sentences:
+Examples of _INVALID_ atomic sentences:
+
 - `father(Knows(claire,max))`: father expects an object, not a bool
 - `2 + (3 < 7)`: can't add a bool to a number
 - `Cube(Blue(a))`: Cube expects a cube, not a bool
@@ -206,7 +210,7 @@ Date: Thu 3 Sep 2026 (2026-09-03)
 This is also in the slides.
 
 - 2 homeworks (HW1,HW2)
-    - Submit in Brightspace and Themis (PDF in BS, code in Themis)
+  - Submit in Brightspace and Themis (PDF in BS, code in Themis)
 - Midterm
 - Exam (E)
 - If your E is higher than HW,M => G = E
@@ -216,10 +220,10 @@ This is also in the slides.
 
 ### Formal Proofs with atomic sentences
 
-- Reit: a *Proof* is a step-by-step demonstration that some conclusion follows from some premises.
+- Reit: a _Proof_ is a step-by-step demonstration that some conclusion follows from some premises.
 - Reit: Reit :)
 - Reit: `= Intro` (identity introduction) and `= Elim` (identity elimination / substitution)
-    - Reit: with equality elim, you can replace as many or as little occurrences that you want
+  - Reit: with equality elim, you can replace as many or as little occurrences that you want
 - Reit: reflexivity (t=t), symmetry (t=e => e=t), transitivity (s=t and t=e => s=e)
 
 ### Boolean connectives and compound sentences
@@ -241,7 +245,7 @@ This is also in the slides.
 - Provide the actual translation.
 
 For instance:
-*Barbie either stays in Barbieland and does not live an authentic life, or she goes on an adventure and discovers her true self.*
+_Barbie either stays in Barbieland and does not live an authentic life, or she goes on an adventure and discovers her true self._
 
 Atomic sentences:
 

@@ -12,7 +12,7 @@ Topic: Boolean connectives and Formal Proofs
 - Now for $\lor$
 - **Intro:** In order to prove $P \lor Q$ we have to either prove `P` or `Q` and the condition is satisfied
 - **Elim:** If we have already established $P \lor Q$ we cannot really conclude anything about `P` and `Q` seperately, but maybe some `R`
-    - We don't know if `P` or `Q` holds, but we can prove that given `P` we can derive `R` or given `Q` we can derive `R`
+  - We don't know if `P` or `Q` holds, but we can prove that given `P` we can derive `R` or given `Q` we can derive `R`
 
 Example of both (commutativity of disjunction):
 
@@ -76,27 +76,29 @@ Examples:
 3 | | ⊥           ⊥ Intro: 1, 2
 4 | ¬¬P           ¬ Intro: 2-3
 ```
+
 i
+
 ### General Proof construction
 
-- *Pro tip*: first, try to understand the proof intuitively, only then write it out in Fitch
+- _Pro tip_: first, try to understand the proof intuitively, only then write it out in Fitch
 
 ### Conditionals
 
 - implication
-    - $P \rightarrow Q$
-    - says that:
-        - P is a *sufficient* condition for Q (that is, if P then Q, but there may be other ways to achieve Q)
-        - Q is a *nessecary* condition for P
-    - If P is false, then `P -> Q` is always true.
-    - The arrow doesn't imply causality though.
-- *if-then-else*: "If P then Q else R" translates to $(P \rightarrow Q) \land (\neg P \rightarrow R)$
+  - $P \rightarrow Q$
+  - says that:
+    - P is a _sufficient_ condition for Q (that is, if P then Q, but there may be other ways to achieve Q)
+    - Q is a _nessecary_ condition for P
+  - If P is false, then `P -> Q` is always true.
+  - The arrow doesn't imply causality though.
+- _if-then-else_: "If P then Q else R" translates to $(P \rightarrow Q) \land (\neg P \rightarrow R)$
 - **if and only if**: "iff" translates to $\leftrightarrow$ (or $(P \rightarrow Q) \land (Q \rightarrow P)$)
-    - Sort-of equality check: the bic evals to T if both `P` and `Q` have the same truth value
+  - Sort-of equality check: the bic evals to T if both `P` and `Q` have the same truth value
 
 ## Lecture 5
 
-Date: 
+Date:
 
 ### Proofs with conditionals
 

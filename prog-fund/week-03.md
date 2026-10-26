@@ -3,6 +3,7 @@
 Date: Mon 14 Sep 2026 (2026-09-14)
 
 Quick `printf` formatter reference:
+
 - `%d`: decimal
 - `%ld`: long decimal
 - `%u`: unsigned decimal
@@ -61,10 +62,10 @@ For integers `n` and `d > n` we have:
 $n = (n / d) * d + r$ and $0 \le r \lt d$
 where `r = n mod d`. (remainder division)
 
-- **Lemma 1:** for modular *addition* we have `(a + b) % d == ((a % d) + (b % d)) % d`. The rhs is *much* faster to compute for large values of `a` and `b` (and smaller values of `d` 
-    - Proof is in the slides, but you don't need to make them yourselves anyways
-- **Lemma 2:** modular *multiplication*: `(a * b) % d == ((a % d) * (b % d)) % d`
-- **Lemma 3:** modular *exponentiation*: `(a ^ n) % d == ((a % d)^n) % d`
+- **Lemma 1:** for modular _addition_ we have `(a + b) % d == ((a % d) + (b % d)) % d`. The rhs is _much_ faster to compute for large values of `a` and `b` (and smaller values of `d`
+  - Proof is in the slides, but you don't need to make them yourselves anyways
+- **Lemma 2:** modular _multiplication_: `(a * b) % d == ((a % d) * (b % d)) % d`
+- **Lemma 3:** modular _exponentiation_: `(a ^ n) % d == ((a % d)^n) % d`
 
 ### Modular exponentiation
 
@@ -74,20 +75,20 @@ where `r = n mod d`. (remainder division)
 - For instance: `(2^100) % 100`
 - Don't compute `2^100` first! `2^100 == 4^50 == 16^25`
 - All of the following is `mod 100`:
-    - `16^25 == (16 * (16^24))`
-    - `(16 * (16^24)) == (16 * (256^12))`
-    - = `(16 * (56^12))`
-    - = `(16 * (3136^6))`
-    - = `(16 * (36^6))`
-    - = `(16 * (1296^3))`
-    - = `(16 * (96^3))`
-    - = `(16 * 16 * (96^2))`
-    - = `(16 * 96 * 96^2)`
-    - = `(1536 * 96^2)`
-    - = `(36 * 9216)`
-    - = `(36 * 16)`
-    - = `576`
-    - = `76`
+  - `16^25 == (16 * (16^24))`
+  - `(16 * (16^24)) == (16 * (256^12))`
+  - = `(16 * (56^12))`
+  - = `(16 * (3136^6))`
+  - = `(16 * (36^6))`
+  - = `(16 * (1296^3))`
+  - = `(16 * (96^3))`
+  - = `(16 * 16 * (96^2))`
+  - = `(16 * 96 * 96^2)`
+  - = `(1536 * 96^2)`
+  - = `(36 * 9216)`
+  - = `(36 * 16)`
+  - = `576`
+  - = `76`
 
 The program then becomes:
 
@@ -134,13 +135,14 @@ Got distracted writing the above program, missed it :)
 - Algo goes here :p
 
 ### GCD
+
 - For non-negative integers `a` and `b`,
 - The `gcd(a, b)` is the largest common factor of `a` and `b`, without a remainder
 - `gcd(a, 0) == gcd(0, a) == a`
 - If `a>b` then: `gcd(a,b) == gcd(a-b,b)`
 - Loop time!
 - `gcd(26, 8) == gcd(18, 8) == gcd(10, 8) == gcd(2, 8) == gcd(8, 2) == gcd(0, 2) == 2`
-    - Ergo: either swap or subtract, until one of them becomes zero! Then the other value is the gcd.
+  - Ergo: either swap or subtract, until one of them becomes zero! Then the other value is the gcd.
 
 ```c
 /* a==A, b==B */
