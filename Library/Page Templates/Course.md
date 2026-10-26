@@ -33,7 +33,7 @@ command: Create Course
 
 Weekly notes:
 
-${"$"} {
+${"$"}{
 query[[
   from p = index.contentPages()
   where string.startsWith(p.ref, editor.getCurrentPage() .. "/")

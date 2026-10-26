@@ -1,7 +1,7 @@
 # Computer Architecture
 
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS010-05#WBCS010-05.2026-2027.1
-- Book:
+- Book: https://u.toostveen.nl/carch
 - Lectures: 
 - Tutorials: 
 - Assessment: 
