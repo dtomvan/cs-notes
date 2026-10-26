@@ -19,5 +19,6 @@ tags: "meta/template/page"
 ## To manage the order in which the page templates appear
 #priority: 10
 ---
-# ${editor.getCurrentPageMeta()}
-Page template body
+# ${utils.getPageDirectory(editor.getCurrentPage())}
+
+- Date: ${date.today()}
