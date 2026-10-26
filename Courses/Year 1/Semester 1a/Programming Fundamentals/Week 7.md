@@ -24,8 +24,3 @@ We want $J$ to be true before, after and during each iteration of the loop.
 After execution we want to make sure that $J \land \neg B \implies Q$
 
 To prove that it terminates, we use a variant-function `vf`, which needs to start as a non-negative integer, and should be bounded below zero after the loop. Also each iteration we need to prove that the `vf` decreases.
-
-$$
-\text{big ass formula} \
-2 + 2 =4
-$$
