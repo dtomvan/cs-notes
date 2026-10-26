@@ -25,6 +25,7 @@ html {
 }
 
 #sb-current-page {
-  font-size: medium!important;
+  font-size: large!important;
+  margin: auto;
 }
 ```
