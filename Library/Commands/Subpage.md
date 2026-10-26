@@ -15,6 +15,7 @@ command.define {
   name = "Create Subpage",
   run = function()
     newpath = sub.dir()
+    editor.prompt("Create ")
     editor.navigate(newpath..'New')
   end
 }
