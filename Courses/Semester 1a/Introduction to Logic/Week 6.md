@@ -1,3 +1,9 @@
+---
+pageDecoration:
+  icon: airplay
+tags: week
+---
+
 ## Lecture 6
 
 Slides:

@@ -1,3 +1,9 @@
+---
+pageDecoration:
+  icon: airplay
+tags: week
+---
+
 ## Lecture 7 & 8
 
 Date: 2026-09-21 & 2026-09-22

@@ -1,3 +1,9 @@
+---
+pageDecoration:
+  icon: airplay
+tags: week
+---
+
 # Week 2
 
 ## Lecture 2

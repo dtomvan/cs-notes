@@ -14,8 +14,8 @@ command: Create Course
 #key: "Ctrl-q c"
 #mac: "Cmd-Alt-q"
 ## To prefill frontmatter
-#frontmatter: |
-#  date: "${date.today()}"
+frontmatter: |
+  tags: course
 ## To manage the order in which the page templates appear
 #priority: 10
 ---

@@ -1,3 +1,9 @@
+---
+pageDecoration:
+  icon: airplay
+tags: week cs/prog-fund
+---
+
 ## Lecture 3
 
 Date: Mon 14 Sep 2026 (2026-09-14)

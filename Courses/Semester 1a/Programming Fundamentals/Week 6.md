@@ -1,3 +1,9 @@
+---
+pageDecoration:
+  icon: airplay
+tags: week cs/prog-fund
+---
+
 ## Week 6
 
 Date: 2026-10-05

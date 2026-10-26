@@ -1,4 +1,8 @@
-
+---
+pageDecoration: 
+  icon: book-open
+tags: course
+---
 # Intro to logic
 
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS030-05

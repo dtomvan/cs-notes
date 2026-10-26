@@ -1,3 +1,9 @@
+---
+pageDecoration:
+  icon: airplay
+tags: week
+---
+
 # Week 1
 
 ## Lecture 1 -- A short history of Computing Science

@@ -1,3 +1,9 @@
+---
+pageDecoration:
+  icon: airplay
+tags: week
+---
+
 ## Lecture 1
 
 Linked slides: [[Courses/Semester 1a/Introduction to Logic/L1.pdf]]

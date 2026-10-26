@@ -1,3 +1,10 @@
+---
+pageDecoration:
+  icon: airplay
+tags: week
+---
+
+
 # Week 2
 
 Slides:

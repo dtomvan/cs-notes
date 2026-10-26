@@ -1,3 +1,9 @@
+---
+pageDecoration:
+  icon: airplay
+tags: week
+---
+
 ## Lecture 5
 
 Date: Monday 14 september 2026 (2026-09-14)

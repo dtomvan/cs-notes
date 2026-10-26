@@ -1,3 +1,8 @@
+---
+pageDecoration: 
+  icon: book-open
+tags: course
+---
 # Programming fundamentals
 
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS046-10>

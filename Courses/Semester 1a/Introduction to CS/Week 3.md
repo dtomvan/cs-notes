@@ -1,3 +1,10 @@
+---
+pageDecoration:
+  icon: airplay
+tags: week
+---
+
+
 ## Lecture 3 and 4
 
 Date: Tue 15 September 2026 (2026-09-15)

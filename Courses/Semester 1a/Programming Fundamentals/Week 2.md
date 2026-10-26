@@ -1,5 +1,7 @@
 ---
-tags: cs/prog-fund
+pageDecoration:
+  icon: airplay
+tags: week cs/prog-fund
 ---
 
 # Week 2

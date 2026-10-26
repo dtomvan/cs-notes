@@ -1,3 +1,9 @@
+---
+pageDecoration:
+  icon: airplay
+tags: week
+---
+
 ## Lecture 5
 
 Slides: [[Courses/Semester 1a/Introduction to Logic/L5.pdf]]
