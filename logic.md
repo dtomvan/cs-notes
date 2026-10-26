@@ -1,7 +1,7 @@
+
 # Intro to logic
 
 - Ocasys: <https://ocasys.rug.nl/current/catalog/course/WBCS030-05>
-- Copyparty: <https://fs.toostveen.nl/pub/UG/CS-1/logic>
 - Lectures: Mon 17-19, Tue 11-13 every week
 - Tutorials: Wed/Thu
 - Assessment: 2 HW, MT, Exam
@@ -10,9 +10,9 @@
 
 ---
 
-- [Week 1](/logic/week-01.md)
-- [Week 2](/logic/week-02.md)
-- [Week 3](/logic/week-03.md)
-- [Week 4](/logic/week-04.md)
-- [Week 5](/logic/week-05.md)
-- [Week 6](/logic/week-06.md)
+- [Week 1](</logic/Week 1>)
+- [Week 2](</logic/Week 2>)
+- [Week 3](</logic/Week 3>)
+- [Week 4](</logic/Week 4>)
+- [Week 5](</logic/Week 5>)
+- [Week 6](</logic/Week 6>)
