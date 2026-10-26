@@ -17,7 +17,8 @@ html {
 }
 ```
 
+${config.get("sync.documents")}
+${system.}
 ```space-lua
--- managed-by: configuration-manager
 config.set("sync.documents", system.getProfile().username == "tom")
 ```
