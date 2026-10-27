@@ -109,21 +109,7 @@ view.define {
   end,
 }
 
-view.define {
-  name = "std.linkedMentions",
-  title = "Linked Mentions",
-  command = "Navigate: Linked Mentions",
-  menu = { location = "view", group = "1_views", order = 2, label = "Linked Mentions" },
-  dock = "page-bottom",
-  supportedDocks = { "page-top", "page-bottom", "lhs", "rhs", "bhs", "modal" },
-  defaultOpen = false,
-  refreshOnOpen = true,
-  content = function()
-    local md = widgets.linkedMentionsMarkdown()
-    if md == "" then return "" end
-    return widget.markdown(md, { evaluate = false })
-  end,
-}
+view.open("courses")
 ```
 
 #meta
