@@ -86,7 +86,7 @@ Have you ever found yourselves in one of the following situations?:
 
 Boy, do I have a compiler flag for you! Next time, compile with:
 
-```
+```bash
 gcc -std=c99 -Wall -pedantic -fsanitize=address -ggdb myThing.c
 ```
 
