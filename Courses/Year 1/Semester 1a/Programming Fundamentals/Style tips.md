@@ -96,7 +96,9 @@ This modifies the final binary so that the "address sanitizer" (ASan for short) 
 
 ![](https://md.toostveen.nl/uploads/f6e73a84-6269-4214-b26a-19bee63cf028.png)
 
-Hey, a memory leak! You can see the program did its job fine, but after that ASan found that these two arrays never got freed, and it also knows they were allocated at lines 82 and 83 in `bernoulli2.c`. Let's look at those lines:![](https://md.toostveen.nl/uploads/a5b77bfd-16c5-4cda-9ed9-3b702dcdc131.png)
+Hey, a memory leak! You can see the program did its job fine, but after that ASan found that these two arrays never got freed, and it also knows they were allocated at lines 82 and 83 in `bernoulli2.c`. Let's look at those lines:
+
+
 
 **AHA**! I guess I forgot to free `prev` and `cur`...
 
