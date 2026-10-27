@@ -14,7 +14,7 @@ html {
   --editor-font: "Inter", sans-serif;
 }
 
-code, pre, .sb-line-fenced-code {
+code, pre, .sb-line-fenced-code, .sb-code {
   font-family: "AporeticSansM Nerd Font", monospace;
 }
 

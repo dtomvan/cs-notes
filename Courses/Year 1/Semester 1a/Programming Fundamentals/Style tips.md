@@ -18,13 +18,13 @@ AFAICT (though of course you can't hold me accountable if I'm wrong) this *shoul
 
 ## Prerequisites
 
-Download clangd for VSCode: <https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.vscode-clangd> (you should be able to install it from the link, or just search for it inside VSCode itself)
+Download clangd for VSCode: https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.vscode-clangd (you should be able to install it from the link, or just search for it inside VSCode itself)
 
 Also, we want the *Format on save* setting to be turned on, so you don't have to manually format every time. It looks like this:
 
 ![[Courses/Year 1/Semester 1a/Programming Fundamentals/6dfd5827-2ee7-4e6a-ac7f-636530ac6764.png]]
 
-(you can also copy-paste the following URL into a new tab: <vscode://settings/editor.formatOnSave>)
+Direct link: <vscode://settings/editor.formatOnSave>
 
 **NB**: VSCode might give you two pop-ups:
 
