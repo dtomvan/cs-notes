@@ -14,6 +14,7 @@ tags: course
 - Software: FitchVIZIER https://fitch.rug.themisjudge.nl/
 
 ---
+- [[Courses/Year 1/Semester 1a/Introduction to Logic/Q&A]] 
 
 Weekly notes:
 ${query[[

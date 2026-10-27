@@ -1,0 +1,43 @@
+# Q&A 2026-10-27
+
+This Q&A went over HW2 and past exam from 2025. I’ve noted some tips for each question that we went over.
+
+- Homework questions
+  - Q1: **translations with quantifiers**
+  - Q1a: $\forall x (H(el, s(el)) \land (H(x, s(x)) \rightarrow x = el))$
+  - Q1b: $\forall x ((P(x) \land H(x, k)) \rightarrow \exists y (P(x) \land H(y, x)))$
+  - Q1c: $\forall x (\neg H(x,x) \rightarrow \neg \exists y H(y, x))$
+  - Q1c (alternative): $\neg \exists x (\neg H(x,x) \land \exists y H(y, x))$
+    - Exercise: prove the above 2 statements equivalent, thru:
+      - Fitch
+      - Logical laws
+  - Q2 (fitch proofs), skipped
+  - Q3 (set theory), skipped
+    - Tricky part: If $A = \{1,2,\{1,2\},\{2,1\}\}$, then $|A| = 3$
+  - Q4: **model semanticsWorkout**
+    - doesn’t have to be as verbose as in the answer key
+    - Tip: try to represent the model as something _graph_-ical
+    - Steps:
+      - Unfold into “natural language”
+      - Claim true/false
+      - Go over the cases (can do that informally, and brief)
+    - Q4a: you can just argue for `n = 0` and `n > 0`, in which resp. the first and second disjunct are true
+  - Q5: **making models**
+    - EZ asf
+  - Q6: **countermodels**
+    - Q6a,b: skipped cause easy asf
+    - Q6c: premises need to hold, while the conclusion doesn’t
+  - Q7: **bonus proof**, skipped
+- Exam 2025
+  - Q1: **countermodels**
+    - $M(S) = \{S_1, S_2\}$
+    - $M(C) = \{C_1\}$
+    - $M(G) = \{\langle S_1,C_1 \rangle\}$
+  - Q2: **prove two translations are equivalent**
+    - Tip for translations: “dumb down” the english sentence
+    - FI: “Anyone who helps themselves helps Kester” -> “For all persons x, if x helps x, x helps k” -> $\forall x (H(x,x) \rightarrow H(x, k))$
+  - Q3: **fitch proofs**
+  - Q7: **normal forms**
+    - No justifications required anymore :D
+    - Can help you with distributivity tho
+    - Don’t forget $\Leftrightarrow$ tho
