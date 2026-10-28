@@ -109,7 +109,14 @@ view.define {
   end,
 }
 
-view.open("courses")
+config.set("view.defaults", {
+  ["courses"] = {
+    dock = "lhs",
+    open = true,
+  },
+})
+
+-- view.open("courses")
 ```
 
 #meta
