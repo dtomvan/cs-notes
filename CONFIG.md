@@ -118,6 +118,7 @@ config.set("view.defaults", {
     open = false,
   },
   ["std.toc"] = {
+    dock = "page-top",
     open = true,
   }
 })
