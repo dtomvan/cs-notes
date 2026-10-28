@@ -114,9 +114,14 @@ config.set("view.defaults", {
     dock = "lhs",
     open = true,
   },
+  ["std.linkedMentions"] = {
+    open = false,
+  },
+  ["std.toc"] = {
+    open = true,
+  }
 })
 
--- view.open("courses")
 ```
 
 #meta
