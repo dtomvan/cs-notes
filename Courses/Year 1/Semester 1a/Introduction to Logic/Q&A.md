@@ -9,7 +9,22 @@ This Q&A went over HW2 and past exam from 2025. I’ve noted some tips for each 
   - Q1c: $\forall x (\neg H(x,x) \rightarrow \neg \exists y H(y, x))$
   - Q1c (alternative): $\neg \exists x (\neg H(x,x) \land \exists y H(y, x))$
     - Exercise: prove the above 2 statements equivalent, thru:
-      - Fitch
+      - Fitch (answer)
+      ```fitch
+      1  | ∀x (¬H(x,x) → ¬∃y H(y,x))
+         |----
+      2  | | ∃x (¬H(x,x) ∧ ∃y H(y,x))
+         | |----
+      3  | | | [a] ¬H(a,a) ∧ ∃y H(y,a)
+         | | |----
+      4  | | | ¬H(a,a)                         ∧ Elim: 3
+      5  | | | ∃y H(y,a)                       ∧ Elim: 3
+      6  | | | ¬H(a,a) → ¬∃y H(y,a)            ∀ Elim: 1
+      7  | | | ¬∃y H(y,a)                      → Elim: 6,4
+      8  | | | ⊥                               ⊥ Intro: 5, 7
+      9  | | ⊥                                 ∃ Elim: 2, 3-8
+      10 | ¬∃x (¬H(x,x) ∧ ∃y H(y,x))           ¬ Intro: 2-9
+      ```
       - Logical laws
   - Q2 (fitch proofs), skipped
   - Q3 (set theory), skipped
