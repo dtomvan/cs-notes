@@ -25,8 +25,8 @@ files:
   - Silverbullet-Math/fonts/KaTeX_Caligraphic-Bold.woff2
   - Silverbullet-Math/fonts/KaTeX_AMS-Regular.woff2
 share.uri: "https://github.com/MrMugame/silverbullet-math/blob/main/Math.md"
-share.hash: f95ab823
 share.mode: pull
+share.hash: f95ab823
 ---
 
 # Silverbullet Math
