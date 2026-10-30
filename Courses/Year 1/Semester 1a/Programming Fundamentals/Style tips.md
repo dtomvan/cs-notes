@@ -1,5 +1,7 @@
 # Tom's super cool PF style tips
 
+_An appendix to my [[Courses/Year 1/Semester 1a/Programming Fundamentals]] page_
+
 Are you mad at getting deducted all the time by the TA's for something you completely missed when you were reviewing your code for your final submission? Well, look no further! This page contains nearly every style-related trick/config I've found over the past 5 weeks...
 
 We will be installing the `clangd` extension for VSCode (it's better than the official extension for C/C++ anyways), so we can load Tom's super cool configuration files that prevent Rookie Mistakes<sup>(TM)</sup>
