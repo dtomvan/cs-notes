@@ -1,12 +1,4 @@
-```space-lua
--- priority: 10
-actionButton.define {
-  icon = "sidebar",
-  description = "Sidebar",
-  command = "Navigate: Tree",
-}
 
-```
 
 ```space-style
 html {
