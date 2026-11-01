@@ -22,16 +22,6 @@ code, pre, .sb-line-fenced-code, .sb-code {
   font-size: large!important;
   margin: auto;
 }
-
-.sb-frontmatter:not(.gotoParentCourse) {
-  opacity: .5;
-}
-
-.sb-frontmatter-preview:has(.gotoParentCourse) {
-  background-color: var(--subtle-background-color);
-  padding: 2em;
-  padding-bottom: 2em!important;
-}
 ```
 
 ```space-lua
