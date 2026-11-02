@@ -17,4 +17,17 @@ Logical laws:
 - Same quantifier:
   - $\forall x P(x) \land \forall x Q(x) \Leftrightarrow \forall x (P(x) \land Q(x))$
   - $\forall x P(x) \lor \forall x Q(x) \Leftrightarrow \forall x (P(x) \land Q(x))$
-- 
+- Implications:
+  - These next two assume no free $x$ in $P$.
+  - $P \rightarrow \forall x Q(x) \Leftrightarrow \forall x (P \rightarrow Q(x))$
+  - $\forall x Q(x) \rightarrow P \Leftrightarrow \exists x (Q(x) \rightarrow P)$
+
+# Skolem normal form
+
+- Make it Prenex first
+-  $\exists$ in front: make a constant
+- $\exists$ after a $\forall$: make a function that depends on all previous $\forall$‘s
+
+For instance:
+
+$\exists x \forall y \forall z \exists w
