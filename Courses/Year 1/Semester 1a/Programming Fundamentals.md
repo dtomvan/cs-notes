@@ -26,15 +26,35 @@ tags: course
 
 Weekly notes:
 
-${query[[
+<!--#lua query[[
   from p = index.contentPages("week")
   where p.parentCourse == "[[" .. editor.getCurrentPage() .. "]]"
   select templates.pageItem(p)
-]]}
+]] -->
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 2]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 3]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 4]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 6]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 7]]
+<!--/lua-->
 
 PDFs:
-${query [[
+<!--#lua query [[
   from p = index.documents()
   where string.startsWith(p.name, editor.getCurrentPage()) and p.contentType == "application/pdf"
   select templates.pageItem(p)
-]]}
+]] -->
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/IPinC2627.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/PFweek1.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/PFweek2.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/PFweek3.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/PFweek4.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/handoutsDafny1.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/handoutsDafny2.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/lab2PF2627.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/lab3PF2627.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/lab4PF2627.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/lab5PF2627.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/resit1PF2526.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/styleguideC.pdf]]
+<!--/lua-->

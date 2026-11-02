@@ -7,6 +7,8 @@ Slides: [[Courses/Year 1/Semester 1a/Introduction to Logic/L7.pdf]]
 
 Haven’t actually written any notes for this one. Set theory I already know and models are just plain practice mostly. Also nigh impossible to note down with mathjax.
 
+---
+
 # Prenex Normal Form
 
 Logical laws:
@@ -30,4 +32,13 @@ Logical laws:
 
 For instance:
 
-$\exists x \forall y \forall z \exists w
+$$
+\exists x \forall y \forall z \exists w \forall e \exists g P(x,y,z,w,e,g)
+$$
+becomes
+
+$$
+\forall y \forall z \forall e P(c, y, z, f_1(y, z), e, f_2(y,z,e))
+$$
+
+_Note:_ I’ve used $f_1$ and $f_2$ here because I’ve ran out of letters. Use different letters for the functions preferably.

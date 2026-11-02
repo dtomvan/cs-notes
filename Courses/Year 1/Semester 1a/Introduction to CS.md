@@ -18,14 +18,12 @@
 
 ---
 
-${query[[
+<!--#lua query[[
   from p = index.contentPages("week")
   where p.parentCourse == "[[" .. editor.getCurrentPage() .. "]]"
   select templates.pageItem(p)
-]]}
-
-${query [[
-  from p = index.documents()
-  where string.startsWith(p.name, editor.getCurrentPage()) and p.contentType == "application/pdf"
-  select templates.pageItem(p)
-]]}
+]] -->
+* [[Courses/Year 1/Semester 1a/Introduction to CS/Week 1]]
+* [[Courses/Year 1/Semester 1a/Introduction to CS/Week 2]]
+* [[Courses/Year 1/Semester 1a/Introduction to CS/Week 3]]
+<!--/lua-->
