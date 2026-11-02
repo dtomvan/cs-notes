@@ -14,7 +14,7 @@ Logical laws:
 - DeMorgan:
   - $\neg\forall x P(x) \Leftrightarrow \exists x \neg P(x)$
   - $\neg\exists x P(x) \Leftrightarrow \forall x \neg P(x)$
-- Same quantifier for $\land$:
+- Same quantifier:
   - $\forall x P(x) \land \forall x Q(x) \Leftrightarrow \forall x (P(x) \land Q(x))$
-  - Note: this does **NOT** go for $\lor$
+  - $\forall x P(x) \land \forall x Q(x) \Leftrightarrow \forall x (P(x) \land Q(x))$
 - 
