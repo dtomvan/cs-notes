@@ -195,6 +195,7 @@ Look mom, it goes left as well! It’s almost like the arrow is pointing both wa
 ```
 
 # Logical Equivalences and laws
+These laws are used for NNF, CNF, and DNF. For Prenex, see [[#Prenex normal form|the section about Prenex]].
 - Double negation elimination (`NN`): $\neg\neg P \iff P$
 - Associativity:
   - $P \land (Q \land R) \iff (P \land Q) \land R$
@@ -320,9 +321,22 @@ So, let’s now define a first-order model $\mathfrak{M}$:
 - $\mathfrak{M}(Best) = \{ \text{Aart} \}$ (interpretation of a unary predicate is a set)
 - $\mathfrak{M}(Better) = \{ \langle \text{Albert Heijn},\text{Plus} \rangle \}$ (interpretation of a binary predicate is a relation)
 
+## Variable assignments
+Special notation in the segment below, used to specify what the values of variables are (x,y,z, etc.)
+
+The test will define variable assignments as such: let $h$ be a variable assignment such that $h(x) = 69$ and $h(y) = 420$.
+
+Notations:
+- $h(x)$: the value of $x$ in the variable assignment $h$
+- $h[x/d]$: a copy of the 
+
 ## Proving satisfiability in a model
 For this summary, I will write down the equivalences you’ll need to memorize. Practice applying them with the various model exercises that are available.
 
 ### Atomics
 - Unary predicates: $\mathfrak{M} \models P(\text{Foo}) \text{ iff } \text{Foo} \in \mathfrak{M}(P)$
 - Binary predicates: $\mathfrak{M} \models Q(\text{Foo},\text{Bar}) \text{ iff } \langle \text{Foo},\text{Bar} \rangle \in \mathfrak{M}(Q)$
+
+### Boolean connectives
+- $\mathfrak{M} \models (P \land Q)[h] \text{ iff } \mathfrak{M} \models P[h] \text { and } \mathfrak{M} \models Q[h]$
+- $\mathfrak{M} \models (P \lor Q)[h] \text{ iff } \mathfrak{M} \models P[h] \text { or } \mathfrak{M} \models Q[h]$
