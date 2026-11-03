@@ -282,4 +282,7 @@ Models are used to interpret a FO-language, and describe a situation in that lan
 Let $\mathcal{L}$ be a first-order language with the following elements:
 - constant $ah$: Albert Heijn
 - constant $plus$: Plus supermarket
-- function $ceo(x)$: the CEO of supermarket 
+- unary function $ceo(x)$: the CEO of $x$
+- unary predicate $Best(x)$: $x$ is the best
+- binary predicate $Better(x, y)$: $x$ is better than $y$
+
