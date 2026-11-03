@@ -51,11 +51,46 @@ Line numbers: first the formula you’re changing, then the equality you’re us
 
 #### `∨ Elim`
 ```fitch
-
+1 | A ∨ B
+2 | A → C
+3 | B → C
+  |----
+4 | | A
+  | |----
+5 | | C           → Elim: 2,4
+  |
+6 | | B
+  | |----
+7 | | C           → Elim: 3,6
+8 | C             ∨ Elim: 1, 4-5, 6-7
 ```
 
+Line numbers: first the line number with the disjunction, followed by ranges for each of the subproofs that corresponds to each disjunct (in order)
+
 ## Negation
+
+### `⊥ Intro`
+```fitch
+1 | ¬A
+2 | A
+  |----
+3 | ⊥           ⊥ Intro: 2, 1
+```
+
+Line numbers: first the positive formula, then the negation of the first line
+
+### `⊥ Elim`
+Rule: if you get `⊥`, you may conclude anything you want, because the argument is based on false or contradictory assumptions
+```fitch
+1 | ⊥
+  |----
+2 | p=np         ⊥ Elim: 1
+```
+
+### `
+
 ## (bi-)implication
+
 ## Quantifiers
 
 # Logical Equivalences and laws
