@@ -330,6 +330,7 @@ Notations:
 - $h(x)$: the value of $x$ in the variable assignment $h$
 - $h[x/d]$: a copy of $h$, where the variable $x$ is overwritten with value $d$
 - $h_\varnothing$: empty variable assignment
+- $\mathfrak{M} \models P[h]$: the model satisfies $P$ under variable assignment $h$
 
 ## Proving satisfiability in a model
 For this summary, I will write down the equivalences you’ll need to memorize. Practice applying them with the various model exercises that are available.
