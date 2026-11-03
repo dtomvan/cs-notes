@@ -87,7 +87,24 @@ Rule: if you get `⊥`, you may conclude anything you want, because the argument
 2 | p=np         ⊥ Elim: 1
 ```
 
-### `
+### `¬ Intro`
+```fitch
+1 | A
+  |----
+2 | | ¬A
+  | |----
+3 | | ⊥           ⊥ Intro: 1, 2
+4 | ¬¬A           ¬ Intro: 2-3
+```
+
+Line numbers: just the subproof range which starts with `P` and ends with `⊥`, then conclude `¬P`
+
+### `¬ Elim`
+```fitch
+1 | ¬¬A
+  |----
+2 | A           ¬ Elim: 1
+```
 
 ## (bi-)implication
 
