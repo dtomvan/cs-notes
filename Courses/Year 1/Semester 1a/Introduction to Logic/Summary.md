@@ -181,6 +181,17 @@ Look mom, it goes left as well! It’s almost like the arrow is pointing both wa
 2 | ∃x P(x)         ∃ Intro: 1
 ```
 
+### `∃ Elim`
+```fitch
+1 | ∃x P(x)
+  |----
+2 | | [a] P(a)
+  | |----
+3 | | P(a) ∨ Q(a)              ∨ Intro: 2
+4 | | ∃x (P(x) ∨ Q(x))         ∃ Intro: 3
+5 | ∃x (P(x) ∨ Q(x))           ∃ Elim: 1, 2-4
+```
+
 # Logical Equivalences and laws
 
 # Normal forms
