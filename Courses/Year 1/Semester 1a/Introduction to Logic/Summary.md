@@ -164,7 +164,22 @@ Look mom, it goes left as well! It’s almost like the arrow is pointing both wa
 2 | | a=a            = Intro
 3 | ∀x (x=x)         ∀ Intro: 1-2
 ```
-### 
+
+### `∀ Elim`
+```fitch
+1 | ∀x (P(x) → Q(x))
+2 | P(a)
+  |----
+3 | P(a) → Q(a)              ∀ Elim: 1
+4 | Q(a)                     → Elim: 3,2
+```
+
+### `∃ Intro`
+```fitch
+1 | P(a)
+  |----
+2 | ∃x P(x)         ∃ Intro: 1
+```
 
 # Logical Equivalences and laws
 
