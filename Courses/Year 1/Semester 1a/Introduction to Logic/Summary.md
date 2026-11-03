@@ -127,7 +127,32 @@ Line numbers: just the subproof range which starts with `P` and ends with `⊥`,
 
 **NB:** these line numbers are the other way around when compared to `= Elim`; implication first, then the formula on the left-hand side of the implication
 
+### `↔ Intro`
+
+Both `↔` rules are just the same as implications, but both ways
+```fitch
+1 | a=b
+  |----
+2 | | P(a)
+  | |----
+3 | | P(b)              = Elim: 2, 1
+  |
+4 | | P(b)
+  | |----
+5 | | a=a               = Intro
+6 | | b=a               = Elim: 5, 1
+7 | | P(a)              = Elim: 4, 6
+8 | P(a) ↔ P(b)         ↔ Intro: 2-3, 4-7
+```
+
+### `↔ Elim`
+```fitch
+
+```
+
 ## Quantifiers
+
+
 
 # Logical Equivalences and laws
 
