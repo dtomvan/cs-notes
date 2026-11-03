@@ -20,8 +20,6 @@ tags: course
 
 ---
 
-- [[Courses/Year 1/Semester 1a/Programming Fundamentals/styleguideC.pdf|Style Guide]]
-- [[Courses/Year 1/Semester 1a/Programming Fundamentals/IPinC2627.pdf|Imperative Programming in C]]
 - [[Courses/Year 1/Semester 1a/Programming Fundamentals/Style tips]]
 
 Weekly notes:
@@ -55,6 +53,7 @@ PDFs:
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/lab3PF2627.pdf]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/lab4PF2627.pdf]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/lab5PF2627.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/lab6PF2526.pdf]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/resit1PF2526.pdf]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/styleguideC.pdf]]
 <!--/lua-->
