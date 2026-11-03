@@ -12,7 +12,7 @@ tags: course
   - Program Proofs (https://u.toostveen.nl/dafny)
   - ANSI C (by Ritchie himself)
   - Reader (https://u.toostveen.nl/ipinc)
-- Reit: HW at [Themis](https://themis.housing.rug.nl)
+- HW at [Themis](https://themis.housing.rug.nl)
 - Assessment:
   - 3 subexaminations (mean of them needs to be 5)
   - lab sessions (mean of them needs to be 5)
