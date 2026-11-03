@@ -10,7 +10,7 @@ An argument is *valid* if there’s no possible *counterexample* to the argument
 
 ### `= Intro`
 ```fitch
-  | ---
+  |---
 1 | a = a     = Intro
 ```
 
@@ -107,6 +107,25 @@ Line numbers: just the subproof range which starts with `P` and ends with `⊥`,
 ```
 
 ## (bi-)implication
+### `→ Intro`
+```fitch
+1 | a=b
+  |----
+2 | | P(a)
+  | |----
+3 | | P(b)              = Elim: 2, 1
+4 | P(a) → P(b)         → Intro: 2-3
+```
+
+### `→ Elim`
+```fitch
+1 | P
+2 | P → Q
+  |----
+3 | Q             → Elim: 2,1
+```
+
+**NB:** these line numbers are the other way around when compared to `= Elim`; implication first, then the formula on the left-hand side of the implication
 
 ## Quantifiers
 
