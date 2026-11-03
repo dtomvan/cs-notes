@@ -9,7 +9,10 @@ tags: course
 - Book: None
 - Lectures: 
 - Tutorials: 
-- Assessment: 
+- Assessment:
+  - Labs (at least 5.0)
+  - Final (at least 5.0)
+  - Grade: mean of above two
 - Software: 
 
 ---
