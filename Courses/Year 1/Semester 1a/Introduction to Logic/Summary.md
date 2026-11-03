@@ -1,5 +1,9 @@
 # Validity of arguments
 
+An argument consists of zero or more premises, and a conclusion. An argument is valid if the conclusion always follows from the premises.
+
+An argument is *valid* if there’s no possible *counterexample* to the argument. A *counterexample* (in)formally describes a situation 
+
 # Fitch proofs
 
 ## Boolean connectives
@@ -10,6 +14,14 @@
 # Logical Equivalences and laws
 
 # Normal forms
+
+In general: use the above laws to achieve the normal forms below. Some tips:
+- NNF: usually `(DeM,NN)` is enough
+- CNF/DNF: usually you can eliminate a connective that shouldn’t be at that “level” with a distributivity law
+
+## Negation normal form (NNF)
+## Conjunction normal form (CNF)
+## Disjunction normal form (DNF)
 
 ## Quantifier normal forms
 
@@ -53,3 +65,5 @@ $$
 $$
 
 _Note:_ I’ve used $f_1$ and $f_2$ here because I’ve ran out of letters. Use different letters for the functions preferably.
+
+# Models
