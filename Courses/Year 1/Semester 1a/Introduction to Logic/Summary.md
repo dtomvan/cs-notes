@@ -8,7 +8,7 @@ An argument is *valid* if there’s no possible *counterexample* to the argument
 
 # Fitch proofs
 
-I have a big ass repo of example fitch proofs: https://git.toostveen.nl/tom/fitch-proofs
+I have a big ass repo of example fitch proofs, you can use it either as an LPL answer key or: https://git.toostveen.nl/tom/fitch-proofs
 
 ### `= Intro`
 ```fitch
