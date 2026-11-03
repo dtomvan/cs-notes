@@ -10,9 +10,12 @@ tags: course
   - _Self-contained_, list is not needed
   - Computer Networks (5th Ed.)
   - Computer Networking: A Top-Down Approach
+- Lecturer: R. Zare Hassanpour
 - Lectures: 
 - Tutorials: 
-- Assessment: 
+- Assessment:
+  - Exam (60%)
+  - Homework (40%)
 - Software:
   - WireShark
   - Cisco Packet Tracer
