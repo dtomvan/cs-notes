@@ -302,12 +302,18 @@ Usually written as a conjunction of implications, in either of these forms:
 Notice how using `Def ->` on the above forms results in either zero or one positive literals.
 
 #### Horn’s algorithm
+
+Horn’s algorithm is used for finding satisfiability in a Horn sentence.
+
 Suppose you have the following sentence:
 $(\top \rightarrow A) \land (A \rightarrow D) \land (C \rightarrow \bot) \land ((D \land A) \rightarrow B) \land ((B \land D) \rightarrow E)$
 
 Apply the following steps:
-1. Make a table (example below), for each of the atomic sentences, and $\bot$.
-2. 
+- Make a table (example below), for each of the atomic sentences, and $\bot$.
+- Either until you can’t anymore, or you’ve put a `T` in the column for $\bot$, analyse the consequences of the values you’ve added before
+- If you have no more information, but a `F` in all remaining columns.
+- When you’re done, decide whether the sentence is satisfiable:
+  - 
 
 # Models
 
