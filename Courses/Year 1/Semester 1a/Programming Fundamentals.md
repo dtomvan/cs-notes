@@ -14,7 +14,7 @@ tags: course
   - Reader (https://u.toostveen.nl/ipinc)
 - HW at [Themis](https://themis.housing.rug.nl)
 - Assessment:
-  - 3 subexaminations (mean of them needs to be 5)
+  - 3 sub-examinations (mean of them needs to be 5)
   - lab sessions (mean of them needs to be 5)
   - final grade: mean of the above 2
 
