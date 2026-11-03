@@ -345,6 +345,10 @@ For this summary, I will write down the equivalences you’ll need to memorize. 
 ### Boolean connectives
 - $\mathfrak{M} \models (P \land Q)[h] \text{ iff } \mathfrak{M} \models P[h] \text { and } \mathfrak{M} \models Q[h]$
 - $\mathfrak{M} \models (P \lor Q)[h] \text{ iff } \mathfrak{M} \models P[h] \text { or } \mathfrak{M} \models Q[h]$
-- $\mathfrak{M} \models 
+- $\mathfrak{M} \models \neg P[h] \text{ iff } \mathfrak{M} \not\models P[h]$
 - $\mathfrak{M} \models (P \rightarrow Q)[h] \text{ iff } \mathfrak{M} \not\models P[h] \text { or } \mathfrak{M} \models Q[h]$
 - $\mathfrak{M} \models (P \leftrightarrow Q)[h] \text{ iff } (\mathfrak{M} \models P[h] \text { and } \mathfrak{M} \models Q[h]) \text{ or } (\mathfrak{M} \not\models P[h] \text { and } \mathfrak{M} \not\models Q[h])$
+
+### Quantifiers
+- $\mathfrak{M} \models \forall x P(x)[h] \text{ iff for all } d \in \mathfrak{M}(\forall): \mathfrak{M} \models P(x)[h[x/d]]$
+- $\mathfrak{M} \models \exists x P(x)[h] \text{ iff for some } d \in \mathfrak{M}(\forall): \mathfrak{M} \models P(x)[h[x/d]]$
