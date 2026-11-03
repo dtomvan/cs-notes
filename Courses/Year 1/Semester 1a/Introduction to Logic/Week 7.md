@@ -18,7 +18,7 @@ Logical laws:
   - $\neg\exists x P(x) \Leftrightarrow \forall x \neg P(x)$
 - Same quantifier:
   - $\forall x P(x) \land \forall x Q(x) \Leftrightarrow \forall x (P(x) \land Q(x))$
-  - $\forall x P(x) \lor \forall x Q(x) \Leftrightarrow \forall x (P(x) \land Q(x))$
+  - $\forall x P(x) \lor \forall x Q(x) \Leftrightarrow \forall x (P(x) \lor Q(x))$
 - Implications:
   - These next two assume no free $x$ in $P$.
   - $P \rightarrow \forall x Q(x) \Leftrightarrow \forall x (P \rightarrow Q(x))$
