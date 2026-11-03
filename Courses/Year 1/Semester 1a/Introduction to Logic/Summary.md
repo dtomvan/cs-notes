@@ -328,15 +328,23 @@ The test will define variable assignments as such: let $h$ be a variable assignm
 
 Notations:
 - $h(x)$: the value of $x$ in the variable assignment $h$
-- $h[x/d]$: a copy of the 
+- $h[x/d]$: a copy of $h$, where the variable $x$ is overwritten with value $d$
+- $h_\varnothing$: empty variable assignment
 
 ## Proving satisfiability in a model
 For this summary, I will write down the equivalences you’ll need to memorize. Practice applying them with the various model exercises that are available.
 
 ### Atomics
-- Unary predicates: $\mathfrak{M} \models P(\text{Foo}) \text{ iff } \text{Foo} \in \mathfrak{M}(P)$
-- Binary predicates: $\mathfrak{M} \models Q(\text{Foo},\text{Bar}) \text{ iff } \langle \text{Foo},\text{Bar} \rangle \in \mathfrak{M}(Q)$
+- Unary predicates:
+  - $\mathfrak{M} \models P(\text{Foo}) \text{ iff } \text{Foo} \in \mathfrak{M}(P)$
+  - $\mathfrak{M} \not\models P(\text{Foo}) \text{ iff } \text{Foo} \notin \mathfrak{M}(P)$
+- Binary predicates:
+  - $\mathfrak{M} \models Q(\text{Foo},\text{Bar}) \text{ iff } \langle \text{Foo},\text{Bar} \rangle \in \mathfrak{M}(Q)$
+  - $\mathfrak{M} \not\models Q(\text{Foo},\text{Bar}) \text{ iff } \langle \text{Foo},\text{Bar} \rangle \notin \mathfrak{M}(Q)$
 
 ### Boolean connectives
 - $\mathfrak{M} \models (P \land Q)[h] \text{ iff } \mathfrak{M} \models P[h] \text { and } \mathfrak{M} \models Q[h]$
 - $\mathfrak{M} \models (P \lor Q)[h] \text{ iff } \mathfrak{M} \models P[h] \text { or } \mathfrak{M} \models Q[h]$
+- $\mathfrak{M} \models 
+- $\mathfrak{M} \models (P \rightarrow Q)[h] \text{ iff } \mathfrak{M} \not\models P[h] \text { or } \mathfrak{M} \models Q[h]$
+- $\mathfrak{M} \models (P \leftrightarrow Q)[h] \text{ iff } (\mathfrak{M} \models P[h] \text { and } \mathfrak{M} \models Q[h]) \text{ or } (\mathfrak{M} \not\models P[h] \text { and } \mathfrak{M} \not\models Q[h])$
