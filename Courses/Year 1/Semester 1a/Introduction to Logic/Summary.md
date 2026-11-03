@@ -4,11 +4,33 @@ An argument consists of zero or more premises, and a conclusion. An argument is 
 
 An argument is *sound* if the premises are also confirmed to be true.
 
-An argument is *valid* if there’s no possible *counterexample* to the argument. A *counterexample* (in)formally describes a situation 
+An argument is *valid* if there’s no possible *counterexample* to the argument. A *counterexample* (in)formally describes a situation in which the premises are true, but the conclusion is false. In the midterm, you’ll use an informal counterexample. In the final exam, you’ll be writing a *countermodel*. See the section about [[#Models|models]].
 
 # Fitch proofs
 
+### `= Intro`
+```fitch
+  | ---
+1 | a = a     = Intro
+```
+
+### `= Elim`
+```fitch
+1 | a = b
+2 | P(a)
+  |---
+3 | P(b)     = Elim: 2,1
+```
+
+Line numbers: first the formula you’re changing, then the equality you’re using to justify the substitution.
+
 ## Boolean connectives
+
+### `∧ Intro`
+```fitch
+
+```
+
 ## Negation
 ## (bi-)implication
 ## Quantifiers
