@@ -208,7 +208,11 @@ Look mom, it goes left as well! It’s almost like the arrow is pointing both wa
 - DeMorgan’s laws (`DeM`):
   - $\neg(P \lor Q) \iff \neg P \land \neg Q$
   - $\neg(P \land Q) \iff \neg P \lor \neg Q$
-- Definition of $\rightarrow$ (`Def. ->`): $P \$
+- Definition of $\rightarrow$ (`Def. ->`): $P \rightarrow Q \iff \neg P \lor Q$
+- Definition of $\leftrightarrow$ (`Def. <->`):
+  - $P \leftrightarrow Q \iff (P \rightarrow Q) \land (Q \rightarrow P)$
+  - Alternatively, use `Def. ->` immediately. This is allowed on the test, but the above line is more intuitive.
+  - $P \leftrightarrow Q \iff (\neg P \lor Q) \land (\neg Q \lor P)$
 
 # Normal forms
 
