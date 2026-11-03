@@ -10,3 +10,5 @@ This now runs [Silverbullet](https://silverbullet.md). Partly replaces copyparty
 ## Semester 1b
 - [[Courses/Year 1/Semester 1b/Computer Architecture|Computer Architecture]]
 - [[Courses/Year 1/Semester 1b/Discrete Structures|Discrete Structures]]
+## Semester 2a
+- 
