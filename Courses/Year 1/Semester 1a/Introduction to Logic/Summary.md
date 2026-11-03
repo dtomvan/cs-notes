@@ -320,7 +320,7 @@ For this sentence, you get:
 <table>
 <thead>
 <tr>
-<th></th>
+<th>Thing</th>
 <th>A</th>
 <th>B</th>
 <th>C</th>
@@ -342,12 +342,13 @@ For this sentence, you get:
 <td>Step</td>
 <td>1</td>
 <td>3</td>
+<td></td>
 <td>2</td>
 <td>4</td>
 <td></td>
-<td></td>
 </tr>
 </tbody></table>
+
 
 # Models
 
