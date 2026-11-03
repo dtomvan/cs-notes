@@ -221,6 +221,7 @@ This is not:
 $P \lor (Q \land R)$
 
 ## Disjunction normal form (DNF)
+
 *Def.* a sentence is in DNF if it’s NNF, and all disjunctions are above conjunctions.
 
 This is fine:
