@@ -274,3 +274,12 @@ $$
 _Note:_ I’ve used $f_1$ and $f_2$ here because I’ve ran out of letters. Use different letters for the functions preferably.
 
 # Models
+
+## Interpretations
+
+Models are used to interpret a FO-language, and describe a situation in that language. We will define a FO-language $\mathcal{L}$ in this section, to show how each of the elements can be represented in a model.
+
+Let $\mathcal{L}$ be a first-order language with the following elements:
+- constant $ah$: Albert Heijn
+- constant $plus$: Plus supermarket
+- function $ceo(x)$: the CEO of supermarket 
