@@ -9,10 +9,13 @@ tags: course
 - Book:
   - Linear Algebra and Its Applications (not required)
   - https://u.toostveen.nl/linalg
-- Lecturer: Prof. Steffen 
+- Lecturer: Prof. Steffen Müller
 - Lectures: 
 - Tutorials: 
-- Assessment: 
+- Assessment:
+  - Exam (55%)
+  - Midterm (35%)
+  - Homework (10%)
 - Software: 
 
 ---
