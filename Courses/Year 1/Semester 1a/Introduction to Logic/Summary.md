@@ -317,7 +317,7 @@ Apply the following steps:
   - otherwise: *satisfiable*
 
 For this sentence, you get:
-| ''          | A   | Column 8 | B   | C   | D   | E   | $\bot$ |
+|           | A   | Column 8 | B   | C   | D   | E   | $\bot$ |
 | ----------- | --- | -------- | --- | --- | --- | --- | ------ |
 | Truth value | T   |          | T   | F   | T   | T   | F      |
 | Step        | 1   |          | 3   |     | 2   | 4   |        |
