@@ -317,11 +317,10 @@ Apply the following steps:
   - otherwise: *satisfiable*
 
 For this sentence, you get:
-|           | A   | Column 8 | B   | C   | D   | E   | $\bot$ |
-| ----------- | --- | -------- | --- | --- | --- | --- | ------ |
-| Truth value | T   |          | T   | F   | T   | T   | F      |
-| Step        | 1   |          | 3   |     | 2   | 4   |        |
-| <meta core.table core.pin-left='1'> |
+| Thing | A | B | C | D | E | $\bot$ |
+| ----------- | - | - | - | - | - | - |
+| Truth value | T | T | F | T | T | F |
+| Step | 1 | 3 | 2 | 4 |
 
 # Models
 
