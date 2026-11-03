@@ -15,4 +15,4 @@ This now runs [Silverbullet](https://silverbullet.md). Partly replaces copyparty
 - [[Courses/Semester 2a/Calculus 1]]
 - [[Courses/Semester 1b/Introduction to Information Systems]]
 ## Semester 2b
-- 
+- [[Courses/Semester 2b/Computer Networks]]
