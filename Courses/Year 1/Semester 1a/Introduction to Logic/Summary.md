@@ -303,4 +303,3 @@ So, let’s now define a first-order model $\mathfrak{M}$:
 - $\mathfrak{M}(Better) = \{ \langle \text{Albert Heijn},\text{Plus} \rangle \}$ (interpretation of a binary predicate is a relation)
 
 ## Proving satisfiability in a model
-There are 
