@@ -8,7 +8,8 @@ tags: course
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS048-05#WBCS048-05.2026-2027.1
 - Book:
   - Linear Algebra and Its Applications (not required)
-  - 
+  - https://u.toostveen.nl/linalg
+- Lecturer: Prof. Steffen 
 - Lectures: 
 - Tutorials: 
 - Assessment: 
