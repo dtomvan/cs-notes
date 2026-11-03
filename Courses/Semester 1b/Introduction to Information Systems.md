@@ -8,7 +8,7 @@ tags: course
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS021-05#WBCS021-05.2026-2027.1
 - Book:
   - Fundamentals of Database Systems, 7th Edition, 2006
-  - 
+  - https://u.toostveen.nl/dbfund
 - Lectures: 
 - Tutorials: 
 - Assessment: 
