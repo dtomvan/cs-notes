@@ -8,10 +8,13 @@ tags: course
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS055-05
 - Book:
   - Calculus, Early Transcendentals, International Metric Edition (9th edition)
-  - 
+  - https://u.toostveen.nl/calculator
+- Lecturer:
+  - [P. Kilicer PhD](https://ocasys.rug.nl/current/staff/p.kilicer)
+  - [E. Özman PhD](https://ocasys.rug.nl/current/staff/e.ozman)
 - Lectures: 
 - Tutorials: 
-- Assessment: 
+- Assessment: Midterm 1 (25%), Midterm 2 (25%) and Final exam (50%)
 - Software: 
 
 ---
