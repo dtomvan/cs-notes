@@ -1,6 +1,8 @@
 # Validity of arguments
 
-An argument consists of zero or more premises, and a conclusion. An argument is valid if the conclusion always follows from the premises.
+An argument consists of zero or more premises, and a conclusion. An argument is _valid_ if the conclusion always follows from the premises. (assuming the premises are true)
+
+An argument is *sound* if the premises are also confirmed to be true.
 
 An argument is *valid* if there’s no possible *counterexample* to the argument. A *counterexample* (in)formally describes a situation 
 
