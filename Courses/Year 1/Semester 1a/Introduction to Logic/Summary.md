@@ -146,8 +146,12 @@ Both `↔` rules are just the same as implications, but both ways
 ```
 
 ### `↔ Elim`
+Look mom, it goes left as well! It’s almost like the arrow is pointing both ways.
 ```fitch
-
+1 | P ↔ Q
+2 | Q
+  |----
+3 | P             ↔ Elim: 1, 2
 ```
 
 ## Quantifiers
