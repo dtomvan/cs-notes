@@ -286,3 +286,16 @@ Let $\mathcal{L}$ be a first-order language with the following elements:
 - unary predicate $Best(x)$: $x$ is the best
 - binary predicate $Better(x, y)$: $x$ is better than $y$
 
+Now let’s describe the following situation:
+- The CEO of Albert Heijn is Margaret
+- The CEO of Plus is Aart
+- Albert Heijn is better than Plus
+- Aart is the best CEO ever
+
+So, let’s now define a first-order model $\mathfrak{M}$:
+
+- $\mathfrak{M}(\forall) = \text{Albert Heijn}$
+- $\mathfrak{M}(ah) = \text{Albert Heijn}$
+- $\mathfrak{M}(plus) = \text{Plus supermarket}$
+- $\mathfrak{M}(ceo)(\text{Albert Heijn}) = \text{Margaret}$
+- $\mathfrak{M}(ceo)(\text{Albert Heijn}) = \text{Margaret}$
