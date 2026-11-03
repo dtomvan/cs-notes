@@ -317,10 +317,37 @@ Apply the following steps:
   - otherwise: *satisfiable*
 
 For this sentence, you get:
-| Thing | A | B | C | D | E | $\bot$ |
-| ----------- | - | - | - | - | - | - |
-| Truth value | T | T | F | T | T | F |
-| Step | 1 | 3 | 2 | 4 |
+<table>
+<thead>
+<tr>
+<th>Thing</th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+<th>D</th>
+<th>E</th>
+<th><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">⊥</mi></mrow><annotation encoding="application/x-tex">\bot</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord">⊥</span></span></span></span></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Truth value</td>
+<td>T</td>
+<td>T</td>
+<td>F</td>
+<td>T</td>
+<td>T</td>
+<td>F</td>
+</tr>
+<tr>
+<td>Step</td>
+<td>1</td>
+<td>3</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
 
 # Models
 
