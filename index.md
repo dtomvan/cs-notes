@@ -13,3 +13,6 @@ This now runs [Silverbullet](https://silverbullet.md). Partly replaces copyparty
 ## Semester 2a
 - [[Courses/Semester 2a/Algorithms and Data Structures in C]]
 - [[Courses/Semester 2a/Calculus 1]]
+- [[Courses/Semester 1b/Introduction to Information Systems]]
+## Semester 2b
+- 

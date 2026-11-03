@@ -12,7 +12,10 @@ tags: course
 - Lecturer: prof D. Karastoyanova, M. Riveni PhD
 - Lectures: 
 - Tutorials: 
-- Assessment: 
+- Assessment:
+  - Exam (at least 50%)
+  - Assignments
+  - Some kind of unspecified weighting :(
 - Software: 
 
 ---
