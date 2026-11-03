@@ -303,3 +303,8 @@ So, let’s now define a first-order model $\mathfrak{M}$:
 - $\mathfrak{M}(Better) = \{ \langle \text{Albert Heijn},\text{Plus} \rangle \}$ (interpretation of a binary predicate is a relation)
 
 ## Proving satisfiability in a model
+For this summary, I will write down the equivalences you’ll need to memorize. Practice applying them with the various model exercises that are available.
+
+### Atomics
+- Unary predicates: $\mathfrak{M} \models P(\text{Foo}) \text{ iff } \text{Foo} \in \mathfrak{M}(P)$
+- Binary predicates: $\mathfrak{M} \models Q(\text{Foo},\text{Bar}) \text{ iff } \langle \text{Foo},\text{Bar} \rangle \in \mathfrak{M}(Q)$
