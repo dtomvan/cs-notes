@@ -313,7 +313,14 @@ Apply the following steps:
 - Either until you can’t anymore, or you’ve put a `T` in the column for $\bot$, analyse the consequences of the values you’ve added before
 - If you have no more information, but a `F` in all remaining columns.
 - When you’re done, decide whether the sentence is satisfiable:
-  - 
+  - $\bot = T$: *not satisfiable*
+  - otherwise: *satisfiable*
+
+For this sentence, you get:
+| Header A | Header B |
+|----------|----------|
+| Cell A | Cell B |
+
 
 # Models
 
