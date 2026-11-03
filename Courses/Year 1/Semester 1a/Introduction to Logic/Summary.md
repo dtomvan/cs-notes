@@ -28,6 +28,29 @@ Line numbers: first the formula you’re changing, then the equality you’re us
 
 ### `∧ Intro`
 ```fitch
+1 | A
+2 | B
+  |----
+3 | A ∧ B         ∧ Intro: 1, 2
+```
+
+### `∧ Elim`
+```fitch
+1 | A ∧ B
+  |----
+2 | A             ∧ Elim: 1
+3 | B             ∧ Elim: 1
+```
+
+#### `∨ Intro`
+```fitch
+1 | A
+  |----
+2 | A ∨ B         ∨ Intro: 1
+```
+
+#### `∨ Elim`
+```fitch
 
 ```
 
