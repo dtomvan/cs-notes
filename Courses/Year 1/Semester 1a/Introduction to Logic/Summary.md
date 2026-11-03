@@ -320,7 +320,7 @@ For this sentence, you get:
 <table>
 <thead>
 <tr>
-<th>Thing</th>
+<th></th>
 <th>A</th>
 <th>B</th>
 <th>C</th>
