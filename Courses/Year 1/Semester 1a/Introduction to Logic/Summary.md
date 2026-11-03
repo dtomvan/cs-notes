@@ -156,7 +156,15 @@ Look mom, it goes left as well! It’s almost like the arrow is pointing both wa
 
 ## Quantifiers
 
-
+### `∀ Intro`
+```fitch
+  |----
+1 | | [a]
+  | |----
+2 | | a=a            = Intro
+3 | ∀x (x=x)         ∀ Intro: 1-2
+```
+### 
 
 # Logical Equivalences and laws
 
