@@ -292,6 +292,18 @@ $$
 
 _Note:_ I’ve used $f_1$ and $f_2$ here because I’ve ran out of letters. Use different letters for the functions preferably.
 
+## Horn form
+*Def.* a wff is in Horn form if it is in Prenex form, and the quantifier-free part is in CNF, where each conjunct has at most 1 positive literal.
+
+Usually written as a conjunction of implications, in either of these forms:
+- $\top \rightarrow P$
+- $P \rightarrow \bot$
+- $P \rightarrow Q$
+Notice how using `Def ->` on the above forms results in either zero or one positive literals.
+
+This is okay:
+$$
+
 # Models
 
 ## Interpretations
