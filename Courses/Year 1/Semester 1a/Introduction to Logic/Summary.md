@@ -15,6 +15,8 @@
 
 ### Prenex normal form
 
+*Def.* a wff is in Prenex normal form if it is in NNF, and no quantifiers under boolean connectives, i.e. all quantifiers “at the top”
+
 Logical laws:
 - Renaming: $\forall x P(x) \Leftrightarrow \forall y P(y)$
 - DeMorgan:
@@ -30,9 +32,13 @@ Logical laws:
 
 ### Skolem normal form
 
+*Def.* a wff is in Skolem normal form if it is in Prenex normal form, without $\exists$ in the formula
+
+Steps:
 - Make it Prenex first
--  $\exists$ in front: make a constant
-- $\exists$ after a $\forall$: make a function that depends on all previous $\forall$‘s
+- For each $\exists$:
+  - $\exists$ in front: make a constant
+  - $\exists$ after a $\forall$: make a function that depends on all previous $\forall$‘s
 
 For instance:
 
