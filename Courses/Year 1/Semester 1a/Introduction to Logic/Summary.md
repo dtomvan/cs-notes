@@ -195,6 +195,20 @@ Look mom, it goes left as well! It’s almost like the arrow is pointing both wa
 ```
 
 # Logical Equivalences and laws
+- Double negation elimination (`NN`): $\neg\neg P \iff P$
+- Associativity:
+  - $P \land (Q \land R) \iff (P \land Q) \land R$
+  - $P \lor (Q \lor R) \iff (P \lor Q) \lor R$
+- Commutativity:
+  - $P \land Q \iff Q \land P$
+  - $P \lor Q \iff Q \lor P$
+- Idempotency:
+  - $P \land P \iff P$
+  - $P \lor P \iff P$
+- DeMorgan’s laws (`DeM`):
+  - $\neg(P \lor Q) \iff \neg P \land \neg Q$
+  - $\neg(P \land Q) \iff \neg P \lor \neg Q$
+- Definition of $\rightarrow$ (`Def. ->`): $P \$
 
 # Normal forms
 
