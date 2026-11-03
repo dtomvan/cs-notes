@@ -301,8 +301,13 @@ Usually written as a conjunction of implications, in either of these forms:
 - $P \rightarrow Q$
 Notice how using `Def ->` on the above forms results in either zero or one positive literals.
 
-This is okay:
-$$
+#### Horn’s algorithm
+Suppose you have the following sentence:
+$(\top \rightarrow A) \land (A \rightarrow D) \land (C \rightarrow \bot) \land ((D \land A) \rightarrow B) \land ((B \land D) \rightarrow E)$
+
+Apply the following steps:
+1. Make a table (example below), for each of the atomic sentences, and $\bot$.
+2. 
 
 # Models
 
