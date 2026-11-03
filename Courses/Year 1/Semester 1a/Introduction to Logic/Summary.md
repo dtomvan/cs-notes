@@ -317,9 +317,9 @@ Apply the following steps:
   - otherwise: *satisfiable*
 
 For this sentence, you get:
-| Header A | Header B |
-|----------|----------|
-| Cell A | Cell B |
+| Header A | Header B | Column 5 | Column 4 | Column 3 | Column 6 |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| Cell A   | Cell B   |          |          |          |          |
 
 
 # Models
