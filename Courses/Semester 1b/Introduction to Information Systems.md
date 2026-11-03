@@ -9,6 +9,7 @@ tags: course
 - Book:
   - Fundamentals of Database Systems, 7th Edition, 2006
   - https://u.toostveen.nl/dbfund
+- Lecturer: prof D. Karastoyanova, M. Riveni PhD
 - Lectures: 
 - Tutorials: 
 - Assessment: 
