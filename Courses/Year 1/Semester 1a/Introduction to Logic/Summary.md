@@ -294,8 +294,13 @@ Now let’s describe the following situation:
 
 So, let’s now define a first-order model $\mathfrak{M}$:
 
-- $\mathfrak{M}(\forall) = \text{Albert Heijn}$
-- $\mathfrak{M}(ah) = \text{Albert Heijn}$
-- $\mathfrak{M}(plus) = \text{Plus supermarket}$
-- $\mathfrak{M}(ceo)(\text{Albert Heijn}) = \text{Margaret}$
-- $\mathfrak{M}(ceo)(\text{Albert Heijn}) = \text{Margaret}$
+- $\mathfrak{M}(\forall) = \{\text{Albert Heijn}, \text{Plus}, \text{Aart}, \text{Margaret}\}$ (this is our domain of discourse)
+- $\mathfrak{M}(ah) = \text{Albert Heijn}$ (interpretation of a constant)
+- $\mathfrak{M}(plus) = \text{Plus}$
+- $\mathfrak{M}(ceo)(\text{Albert Heijn}) = \text{Margaret}$ (interpretation of a function)
+- $\mathfrak{M}(ceo)(\text{Plus}) = \text{Aart}$
+- $\mathfrak{M}(Best) = \{ \text{Aart} \}$ (interpretation of a unary predicate is a set)
+- $\mathfrak{M}(Better) = \{ \langle \text{Albert Heijn},\text{Plus} \rangle \}$ (interpretation of a binary predicate is a relation)
+
+## Proving satisfiability in a model
+There are 
