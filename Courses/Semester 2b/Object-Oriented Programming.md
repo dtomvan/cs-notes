@@ -8,11 +8,16 @@ tags: course
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS028-05#WBCS028-05.2026-2027.1
 - Book:
   - Absolute Java, sixth edition, https://u.toostveen.nl/absolutejava
-  - Design Patterns: Elements of Reusable Object-Oriented Software, 
-- Lectures: 
+  - Design Patterns: Elements of Reusable Object-Oriented Software, https://u.toostveen.nl/designpat
+- Lecturer: dr A. Rastogi
+- Lectures:
 - Tutorials: 
-- Assessment: 
-- Software: 
+- Assessment:
+  - Group project (need 5)
+  - Homework (need 5)
+  - Exam (need 5)
+  - Need mean 6
+- Software: IntelliJ Idea :(
 
 ---
 
