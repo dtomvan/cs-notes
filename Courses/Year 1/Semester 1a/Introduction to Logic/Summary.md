@@ -203,8 +203,31 @@ In general: use the above laws to achieve the normal forms below. Some tips:
 - CNF/DNF: usually you can eliminate a connective that shouldn’t be at that “level” with a distributivity law
 
 ## Negation normal form (NNF)
+
+*Def.* a sentence is in NNF if all negations are over atomic sentences, and not compound sentences. Also no $\rightarrow$ or $\leftrightarrow$.
+
+This is fine:
+$P \land (\neg Q \lor R)$
+This is not:
+$P \land \neg(Q \lor R)$
+
 ## Conjunction normal form (CNF)
+
+*Def.* a sentence is in CNF if it’s NNF, and all conjunctions are above disjunctions.
+
+This is fine:
+$P \land (Q \lor R)$
+This is not:
+$P \lor (Q \land R)$
+
 ## Disjunction normal form (DNF)
+*Def.* a sentence is in DNF if it’s NNF, and all disjunctions are above conjunctions.
+
+This is fine:
+$P \lor (Q \land R)$
+This is not:
+$P \land (Q \lor R)$
+
 
 ## Quantifier normal forms
 
