@@ -336,11 +336,11 @@ For this summary, I will write down the equivalences you’ll need to memorize. 
 
 ### Atomics
 - Unary predicates:
-  - $\mathfrak{M} \models P(\text{Foo}) \text{ iff } \text{Foo} \in \mathfrak{M}(P)$
-  - $\mathfrak{M} \not\models P(\text{Foo}) \text{ iff } \text{Foo} \notin \mathfrak{M}(P)$
+  - $\mathfrak{M} \models P(x)[h] \text{ iff } \llbracket x \rrbracket ^{\mathfrak{M}}_h \in \mathfrak{M}(P)$
+  - $\mathfrak{M} \not\models P(x)[h] \text{ iff } \llbracket x \rrbracket ^{\mathfrak{M}}_h \notin \mathfrak{M}(P)$
 - Binary predicates:
-  - $\mathfrak{M} \models Q(\text{Foo},\text{Bar}) \text{ iff } \langle \text{Foo},\text{Bar} \rangle \in \mathfrak{M}(Q)$
-  - $\mathfrak{M} \not\models Q(\text{Foo},\text{Bar}) \text{ iff } \langle \text{Foo},\text{Bar} \rangle \notin \mathfrak{M}(Q)$
+  - $\mathfrak{M} \models Q(x,y)[h] \text{ iff } \langle \llbracket x \rrbracket ^{\mathfrak{M}}_h,\llbracket y \rrbracket ^{\mathfrak{M}}_h \rangle \in \mathfrak{M}(Q)$
+  - $\mathfrak{M} \not\models Q(x,y)[h] \text{ iff } \langle \llbracket x \rrbracket ^{\mathfrak{M}}_h,\llbracket y \rrbracket ^{\mathfrak{M}}_h \rangle \notin \mathfrak{M}(Q)$
 
 ### Boolean connectives
 - $\mathfrak{M} \models (P \land Q)[h] \text{ iff } \mathfrak{M} \models P[h] \text { and } \mathfrak{M} \models Q[h]$
