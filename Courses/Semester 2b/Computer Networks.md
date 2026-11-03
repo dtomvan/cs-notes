@@ -8,8 +8,8 @@ tags: course
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS047-05#WBCS047-05.2026-2027.1
 - Book:
   - _Self-contained_, list is not needed
-  - Computer Networks (5th Ed.)
-  - Computer Networking: A Top-Down Approach
+  - Computer Networks (5th Ed.), https://u.toostveen.nl/cnet
+  - Computer Networking: A Top-Down Approach, https://u.toostveen.nl/cnet-topdown
 - Lecturer: R. Zare Hassanpour
 - Lectures: 
 - Tutorials: 
