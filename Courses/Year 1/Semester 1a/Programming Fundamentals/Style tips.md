@@ -107,3 +107,7 @@ Hey, a memory leak! You can see the program did its job fine, but after that ASa
 ASan detects and diagnoses all sorts of these memory-management bugs. Use it to your advantage.
 
 Notable mention: there's also *valgrind* but for our current purposes that's like using a nuclear missile to kill an ant...
+
+
+# Bonus 2: decoding gibberish declarations
+Don’t know what the fuck this declaration does? What is this gibberish? `int *(*a)[50];`?? Well, _obviously_ that’s a pointer to an array of 50 intpointers, duhh. There’s a tool for this: https://cdecl.org, go try it out!
