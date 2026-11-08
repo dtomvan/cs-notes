@@ -8,10 +8,8 @@
 
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS011-05#WBCS011-05.2026-2027.1
 - Book: https://u.toostveen.nl/dms
-- Lectures: 
-- Tutorials: 
-- Assessment: 
-- Software: 
+- Lectures: Wednesday
+- Assessment: final (90%), quizzes/homework (10%)
 
 ---
 
