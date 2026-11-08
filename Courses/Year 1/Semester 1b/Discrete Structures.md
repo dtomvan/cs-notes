@@ -17,13 +17,15 @@
 
 Weekly notes:
 
-${
+<!--#lua 
 query[[
   from p = index.contentPages()
   where string.startsWith(p.ref, editor.getCurrentPage() .. "/")
   select templates.pageItem(p)
 ]]
-}
+ -->
+* [[Courses/Year 1/Semester 1b/Discrete Structures/Week 1]]
+<!--/lua-->
 
 PDFs:
 
