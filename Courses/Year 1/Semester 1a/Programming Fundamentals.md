@@ -34,6 +34,7 @@ Weekly notes:
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 4]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 6]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 7]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 9]]
 <!--/lua-->
 
 PDFs:
