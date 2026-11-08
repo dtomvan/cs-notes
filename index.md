@@ -1,6 +1,6 @@
 This now runs [Silverbullet](https://silverbullet.md). Partly replaces copyparty, partly replaces the previous MDBook setup. How exciting.
 
-“Lite” version of this website (SSR) at: https://cs-mini.toostveen.nl
+“Lite” version of this website (SSR, no LaTeX) at: https://cs-mini.toostveen.nl
 
 # Year 1
 - [Copyparty](https://fs.toostveen.nl/pub/UG/CS-1)
