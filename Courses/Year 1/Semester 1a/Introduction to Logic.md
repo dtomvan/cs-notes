@@ -50,6 +50,7 @@ PDFs:
 * [[Courses/Year 1/Semester 1a/Introduction to Logic/L7.pdf]]
 * [[Courses/Year 1/Semester 1a/Introduction to Logic/L8.pdf]]
 * [[Courses/Year 1/Semester 1a/Introduction to Logic/LPL textbook.pdf]]
+* [[Courses/Year 1/Semester 1a/Introduction to Logic/Summary.pdf]]
 * [[Courses/Year 1/Semester 1a/Introduction to Logic/hw2-2026.pdf]]
 * [[Courses/Year 1/Semester 1a/Introduction to Logic/logic-cnf-dnf.pdf]]
 * [[Courses/Year 1/Semester 1a/Introduction to Logic/quantifier-quiz.pdf]]
