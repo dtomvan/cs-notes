@@ -8,7 +8,8 @@
 
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS010-05#WBCS010-05.2026-2027.1
 - Book: https://u.toostveen.nl/carch
-- Lectures: Monday, Tuesday
+- Lectures: Monday (FB95), Tuesday (EA29)
+  - **December 7**: BB151
 - Assessment: 
 
 ---
