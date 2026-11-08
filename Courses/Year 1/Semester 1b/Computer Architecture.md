@@ -10,7 +10,11 @@
 - Book: https://u.toostveen.nl/carch
 - Lectures: Monday (FB95), Tuesday (EA29)
   - **December 7**: BB151
-- Assessment: 
+- Assessment:
+  - Assignments
+    - Assignment 1: due 2026-11-30
+    - Assignment 2: due 2026-12-11
+    - Assignment 3: due 2027-01-15
 
 ---
 
