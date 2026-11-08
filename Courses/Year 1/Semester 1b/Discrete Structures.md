@@ -27,10 +27,13 @@ query[[
 
 PDFs:
 
-${
+<!--#lua 
 query [[
   from p = index.documents()
   where string.startsWith(p.name, editor.getCurrentPage()) and p.contentType == "application/pdf"
   select templates.pageItem(p)
 ]]
-}
+ -->
+* [[Courses/Year 1/Semester 1b/Discrete Structures/L0.pdf]]
+* [[Courses/Year 1/Semester 1b/Discrete Structures/L1-2.pdf]]
+<!--/lua-->
