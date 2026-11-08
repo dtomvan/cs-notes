@@ -10,7 +10,6 @@
 - Book: https://u.toostveen.nl/carch
 - Lectures: Monday, Tuesday
 - Assessment: 
-- Software: 
 
 ---
 
