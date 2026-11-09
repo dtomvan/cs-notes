@@ -19,7 +19,9 @@ Reading assignments for this week:
 ## Course organisation
 - Covering Chap. 1-8 in H&H
 - Some additional lecture material tho
-- 
+- 7 tutorials
+- 7 labs
+- 3 bonus assignments
 
 ## The Transformation Hierarchy
 - Electrons
