@@ -15,3 +15,5 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Computer Architecture]]"
 Reading assignments for this week:
 - P&P: Chap. 1-3
 - H&H: Chap. 1-2
+
+## 
