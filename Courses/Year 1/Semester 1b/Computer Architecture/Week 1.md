@@ -24,3 +24,15 @@ Reading assignments for this week:
 - ISA
 - Other stuff that’s not really related to CA
 
+## What we will cover
+- Combinatorial logic design
+- Hardware description languages
+- sequantial logic deisng
+- timing and verification
+- ISA (MIPS)
+- Assembly programming
+- Microarchitecture fundamentals
+- Pipelining
+- Branch Prediction
+- Out-of-order execution
+- etc.
