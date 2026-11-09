@@ -1,15 +1,6 @@
 
 
 ```space-style
-html {
-  --ui-font: "Inter", sans-serif!important;
-  --editor-font: "Inter", sans-serif;
-}
-
-code, pre, .sb-line-fenced-code, .sb-code {
-  font-family: "AporeticSansM Nerd Font", monospace;
-}
-
 #sb-current-page {
   font-size: large!important;
   margin: auto;
@@ -113,6 +104,6 @@ config.set("view.defaults", {
 -- managed-by: configuration-manager
 -- boot: true
 config.set("frontmatterFolding.foldByDefault", "always")
-config.set("fonts.ui", "ia-writer-quattro")
-config.set("fonts.editor", "ia-writer-mono")
+config.set("fonts.ui", "system-sans")
+config.set("fonts.editor", "system-sans")
 ```
