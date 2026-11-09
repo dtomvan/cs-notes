@@ -14,4 +14,15 @@ parentCourse: "[[Courses/Year 1/Semester 1a/Programming Fundamentals]]"
 
 ## From recurrence to while loop
 
-Usually, when you have some recurrence relation `f(x)`, you can introduce additional local variables
+Usually, when you have some recurrence relation `f(x)`, you can introduce additional local variables, and “accumulate” the computation slowly:
+
+$$
+y \leq 0 \implies f(y,z) = z
+$$
+$$
+y > 0 \implies f(y,z) = 10\cdot f(y \textbf{div} 10, z) + y \textbf{mod} 10
+$$
+$$
+J : Z = m \cdot f(y,z) + n
+$$
+
