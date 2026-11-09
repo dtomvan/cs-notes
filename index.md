@@ -2,8 +2,6 @@ This now runs [Silverbullet](https://silverbullet.md). Partly replaces copyparty
 
 “Lite” version of this website (SSR, no LaTeX) at: https://cs-mini.toostveen.nl
 
-Actually the lite version was added at 2026-11-08, but now a day later it’s already kinda useless because startup times on cold caches have improved dramatically today.
-
 # Year 1
 - [Copyparty](https://fs.toostveen.nl/pub/UG/CS-1)
 
