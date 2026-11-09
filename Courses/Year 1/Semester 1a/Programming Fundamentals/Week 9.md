@@ -14,7 +14,7 @@ parentCourse: "[[Courses/Year 1/Semester 1a/Programming Fundamentals]]"
 
 ## From recurrence to while loop
 
-Usually, when you have some recurrence relation `f(x)`, you can introduce additional local variables, and “accumulate” the computation slowly:
+Usually, when you have some recurrence relation `f(x)`, you can introduce additional local variables, and “accumulate” the computation slowly: (f.i.)
 
 $$
 y \leq 0 \implies f(y,z) = z
