@@ -16,6 +16,11 @@ Reading assignments for this week:
 - P&P: Chap. 1-3
 - H&H: Chap. 1-2
 
+## Course organisation
+- Covering Chap. 1-8 in H&H
+- Some additional lecture material tho
+- 
+
 ## The Transformation Hierarchy
 - Electrons
 - Devices
