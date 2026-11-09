@@ -47,5 +47,7 @@ Multiple types of design philisophies, from general-purpose to special-purpose:
 - CPU (easy to program, slow)
 - GPU (harder to program, efficient for big-parallel or vector operations)
 - FPGA (programmable board)
-- ASIC (App-Specific Integrated Circuit), for instance TPU
+- ASIC (App-Specific Integrated Circuit, not really programmable), for instance TPU
+
+We will learn how CPUs work by programming FPGA’s with Verilog.
 
