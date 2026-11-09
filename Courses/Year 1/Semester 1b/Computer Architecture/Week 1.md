@@ -43,3 +43,9 @@ Reading assignments for this week:
 - etc.
 
 ## Combinational logic circuits
+Multiple types of design philisophies, from general-purpose to special-purpose:
+- CPU (easy to program, slow)
+- GPU (harder to program, efficient for big-parallel or vector operations)
+- FPGA (programmable board)
+- ASIC (App-Specific Integrated Circuit), for instance TPU
+
