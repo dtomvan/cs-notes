@@ -29,5 +29,5 @@ $$
 J : Z = m \cdot f(y,z) + n
 $$
 
-The $m$ will accumulate the “multiplication part” of the recurrence relation, and the $n$ will accumulate the “addition part”. At the end we can set $z = m \cdot z + n$.
+The $m$ will accumulate the “multiplication part” of the recurrence relation, and the $n$ will accumulate the “addition part” (though either one might decrease instead in other examples). At the end we can set $z = m \cdot z + n$.
 
