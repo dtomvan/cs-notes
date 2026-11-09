@@ -31,3 +31,4 @@ $$
 
 The $m$ will accumulate the “multiplication part” of the recurrence relation, and the $n$ will accumulate the “addition part” (though either one might decrease instead in other examples). At the end we can set $z = m \cdot z + n$.
 
+That last step I just mentioned is called _active finalization_, by the way.
