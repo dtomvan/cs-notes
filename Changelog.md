@@ -2,4 +2,5 @@
 - 2026-11-09:
   - Updated to SB `2.12.0-281-g0fbe7b51-2026-11-09T17-29-23Z`
     - Highlight: faster startup
+    - In shambles, the lite version isn’t really needed as much anymore
   - Switched to iA Writer Quattro/Mono for typeface
