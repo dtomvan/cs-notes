@@ -98,6 +98,6 @@ config.set("view.defaults", {
 -- managed-by: configuration-manager
 -- boot: true
 config.set("frontmatterFolding.foldByDefault", "always")
-config.set("fonts.ui", "system-sans")
-config.set("fonts.editor", "system-sans")
+config.set("fonts.ui", "gelasio")
+config.set("fonts.editor", "gelasio")
 ```
