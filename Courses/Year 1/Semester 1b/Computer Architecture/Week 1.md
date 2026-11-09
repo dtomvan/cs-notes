@@ -51,3 +51,13 @@ Multiple types of design philisophies, from general-purpose to special-purpose:
 
 We will learn how CPUs work by programming FPGA’s with Verilog.
 
+## Transistors
+Wanna fuck around w this shit? https://nandgame.com
+
+- MOS Transistor (Metal, Oxide, Semiconductors)
+- Consists of source+gate+drain
+- n-type: drain at the top, source at the bottom
+  - Closed at 3v at the gate
+- p-type: bubble, source at the top, drain at the bottom
+  - Closed at 0v at the gate
+- work like wall switches
