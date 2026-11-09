@@ -111,5 +111,8 @@ config.set("view.defaults", {
 
 ```space-lua
 -- managed-by: configuration-manager
+-- boot: true
 config.set("frontmatterFolding.foldByDefault", "always")
+config.set("fonts.ui", "ia-writer-quattro")
+config.set("fonts.editor", "ia-writer-mono")
 ```
