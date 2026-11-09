@@ -22,9 +22,9 @@
 # Changelog
 See also the [[Changelog|full changelog]].
 
+${index.getObjectByRef("Changelog", "item", "latest")}
 ${query[[
-  from i = index.items()
-  where i.page == "Changelog"
+  from i = index.getObjectByRef("latest")
 ]]}
 
 Latest entry:
