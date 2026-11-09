@@ -22,6 +22,9 @@ $$
 $$
 y > 0 \implies f(y,z) = 10\cdot f(y \textbf{div} 10, z) + y \textbf{mod} 10
 $$
+
+We will make the invariant:
+
 $$
 J : Z = m \cdot f(y,z) + n
 $$
