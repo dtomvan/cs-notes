@@ -20,7 +20,7 @@ $$
 y \leq 0 \implies f(y,z) = z
 $$
 $$
-y > 0 \implies f(y,z) = 10\cdot f(y \textbf{div} 10, z) + y \textbf{mod} 10
+y > 0 \implies f(y,z) = 10\cdot f(y \textbf{ div } 10, z) + y \textbf{ mod } 10
 $$
 
 We will make the invariant:
