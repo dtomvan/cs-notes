@@ -21,4 +21,5 @@ Reading assignments for this week:
 - Devices
 - Logic
 - Micro-architecture
-- Other stuff
+- Other stuff that’s not really related to CA
+
