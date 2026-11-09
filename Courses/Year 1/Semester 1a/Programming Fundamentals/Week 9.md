@@ -10,4 +10,5 @@ parentCourse: "[[Courses/Year 1/Semester 1a/Programming Fundamentals]]"
 ## Lecture 10?
 
 - Date: 2026-11-09
-- Topic: 
+- Topic:
+
