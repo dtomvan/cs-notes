@@ -41,3 +41,5 @@ Reading assignments for this week:
 - Prefetching
 - Virtual memory
 - etc.
+
+## Combinational logic circuits
