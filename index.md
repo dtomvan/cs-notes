@@ -1,9 +1,7 @@
-This now runs [Silverbullet](https://silverbullet.md). Partly replaces copyparty, partly replaces the previous MDBook setup. How exciting.
-
-“Lite” version of this website (SSR, no LaTeX) at: https://cs-mini.toostveen.nl
+“Lite” version of this website (SSR, no LaTeX or other fancy stuff) at: https://cs-mini.toostveen.nl
 
 # Year 1
-- [Copyparty](https://fs.toostveen.nl/pub/UG/CS-1)
+- [Copyparty](https://fs.toostveen.nl/pub/UG/CS-1) (only for books, most content will live here now)
 
 ## Semester 1a
 - [[Courses/Year 1/Semester 1a/Programming Fundamentals|Programming Fundamentals]]

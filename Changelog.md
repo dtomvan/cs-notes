@@ -1,5 +1,5 @@
 - 2026-10-25: https://cs.toostveen.nl runs SilverBullet
-- 
+  - Partly replaces copyparty, partly replaces the old MDBook
 - 2026-11-08: Lite version added at https://cs-mini.toostveen.nl
 - 2026-11-09: $latest
   - Updated to SB `2.12.0-281-g0fbe7b51-2026-11-09T17-29-23Z`
