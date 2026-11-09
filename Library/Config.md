@@ -1,13 +1,7 @@
 
 
-```space-style
-#sb-current-page {
-  font-size: large!important;
-  margin: auto;
-}
-```
-
 ```space-lua
+-- boot: true
 tag.define {
   name = "course",
   transform = function(o)
@@ -44,7 +38,7 @@ tag.define {
 ```
 
 ```space-lua
--- priority: 50
+-- boot: true
 view.define {
   name = "courses",
   title = "Courses",
