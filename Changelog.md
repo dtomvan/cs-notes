@@ -1,6 +1,7 @@
 - 2026-10-25: https://cs.toostveen.nl runs SilverBullet
+- 
 - 2026-11-08: Lite version added at https://cs-mini.toostveen.nl
-- 2026-11-09:
+- 2026-11-09: $latest
   - Updated to SB `2.12.0-281-g0fbe7b51-2026-11-09T17-29-23Z`
     - Highlight: faster startup
     - In shambles, the lite version isn’t really needed as much anymore
