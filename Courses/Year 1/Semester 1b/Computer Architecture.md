@@ -15,6 +15,8 @@
     - Assignment 1: due 2026-11-30
     - Assignment 2: due 2026-12-11
     - Assignment 3: due 2027-01-15
+  - Final
+  - Labs will be just for receiving feedback
 
 ---
 
