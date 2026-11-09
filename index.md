@@ -21,4 +21,11 @@
 
 # Changelog
 See also the [[Changelog|full changelog]].
+
+${query[[
+  from i = index.items()
+  where i.page == "Changelog"
+]]}
+
+Latest entry:
 ![[Changelog$latest]]
