@@ -27,12 +27,17 @@ Reading assignments for this week:
 ## What we will cover
 - Combinatorial logic design
 - Hardware description languages
-- sequantial logic deisng
-- timing and verification
+- Sequential logic design
+- Timing and verification
 - ISA (MIPS)
 - Assembly programming
-- Microarchitecture fundamentals
+- Micro-architecture fundamentals
 - Pipelining
 - Branch Prediction
 - Out-of-order execution
+- Microcontrollers
+- Memory Hierarchy
+- Caches
+- Prefetching
+- Virtual memory
 - etc.
