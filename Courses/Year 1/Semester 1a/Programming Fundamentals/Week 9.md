@@ -33,3 +33,5 @@ The $m$ will accumulate the “multiplication part” of the recurrence relation
 
 That last step I just mentioned is called _active finalization_, by the way.
 
+Not much to write down here, the lecture is basically practicing proofs...
+
