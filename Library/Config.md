@@ -51,7 +51,6 @@ view.define {
   supportedDocks = { "lhs", "rhs", "modal" },
   followEditor = true,
   defaultOpen = true,
-  expandAll = true,
   refreshOn = { "index" },
   source = function()
     local pages = {}
@@ -65,7 +64,7 @@ view.define {
   presentation = {
     mode = "tree",
     foldersFirst = false,
-    limit = 500,
+    expandAll = true,
     row = {
       icon = function(o)
         return "book-open"
