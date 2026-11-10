@@ -139,11 +139,17 @@ Wanna fuck around w this shit? https://nandgame.com
   - 10 -> 0100
   - 11 -> 1000
 
-## Multiplexer
+### Multiplexer 
 - “Selector”
+- Like the inverse of a decoder, I think?
 - Given a selector S ($log_2 n$ bits) and n inputs, “select” one of the inputs
 
-## LUT
+### LUT 
 - Lookup table
 - Implements a 1-bit function for a given n-length bit pattern
 - Store all answers, and use a multiplexer to output the correct answer
+
+### Full Adder
+- Implements binary addition with carry
+- One full adder adds two bits, therefore chaining multiple adds a multibit number bits
+- 
