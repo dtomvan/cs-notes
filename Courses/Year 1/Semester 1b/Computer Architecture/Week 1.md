@@ -72,4 +72,16 @@ Wanna fuck around w this shit? https://nandgame.com
   - p is used to **p**ull the voltage u**p** (carry 1’s)
   - n is used to take the voltage dow**n** (carry 0’s)
   - these are combined because p’s are bad at carrying zeroes, and vice versa, for electron reasons :D
-  - 
+
+## Circuits
+- Chaining transistors in different ways create logic gates
+- Chaining logic gates can create other logic gates:
+  - f.i. NAND+NOT=AND
+- What you get is a *logic circuit*
+- Composed of:
+  - Functional spec
+  - Timing spec (delay between inputs changing and outputs updating)
+- Two types:
+  - Combinational logic
+  - Sequential logic
+- 
