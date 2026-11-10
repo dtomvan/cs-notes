@@ -171,6 +171,7 @@ Wanna fuck around w this shit? https://nandgame.com
 > **warning** TODO
 > I still have to read the book on this part of the material.
 > H&H Chap. 2
+> TODO: applications, how to make with CMOS
 
 It’s like a nothing gate, but with a switch:
 | E | A | Y |
@@ -180,8 +181,7 @@ It’s like a nothing gate, but with a switch:
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-
-
 ## Logical completeness
 - It’s like a turing machine for logic: any logical expression can be achieved thru a PLA
 - Also, the set of {and,or,not} is logically complete, just like nand, because you can make the other three out of a combination of nand gates
+
