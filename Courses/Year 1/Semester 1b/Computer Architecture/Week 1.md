@@ -151,5 +151,6 @@ Wanna fuck around w this shit? https://nandgame.com
 
 ### Full Adder
 - Implements binary addition with carry
-- One full adder adds two bits, therefore chaining multiple adds a multibit number bits
-- 
+- One full adder adds two bits, therefore chaining multiple adds a multibit number
+
+### Programmable Logic Array (PLA)
