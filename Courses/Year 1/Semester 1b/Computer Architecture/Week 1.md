@@ -115,4 +115,6 @@ Wanna fuck around w this shit? https://nandgame.com
   - Laws of complementarity:
     - $a + \bar a = 1$
     - $a \cdot \bar a = 0$
-  - 
+  - Simplification theorems:
+    - $a \cdot b + a \cdot \bar b = a$
+    - $a + a \cdot b = a$
