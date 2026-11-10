@@ -162,8 +162,12 @@ Wanna fuck around w this shit? https://nandgame.com
 ### Comparator
 - For $n$ input bits, check if two sets of $n$-input values are equal
 - It is achieved by XNOR-ing all the bits respectively (XNOR is a a 1-bit comparator), and AND-ing the result.
+
 ### Arithmetic Logic Unit (ALU)
-- Has multiple “functions” in one, and executes one or the other depending on some input
+- Has multiple “functions” in one, and “executes” one or the other depending on some input
+- Uses a MUX to send the signal to one or the other circuit, like a 4-bit full adder
+
+
 
 ### Tri-state buffer
 > **warning** TODO
