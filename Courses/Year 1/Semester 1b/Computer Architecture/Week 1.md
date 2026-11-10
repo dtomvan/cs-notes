@@ -94,4 +94,4 @@ Wanna fuck around w this shit? https://nandgame.com
 - The logic gates rely on boolean algebra, which rely on certain axioms:
   - Def. B: $B = \{0,1\} \text{ where } 0\not=1$
   - Closure: $a,b \in B \implies (a + b \in B) \land (a \cdot b \in B)$
-  - 
+  - Commutativity: $a,b \in B \implies (a + b = b + a)
