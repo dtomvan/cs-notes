@@ -143,4 +143,7 @@ Wanna fuck around w this shit? https://nandgame.com
 - “Selector”
 - Given a selector S ($log_2 n$ bits) and n inputs, “select” one of the inputs
 
-## 
+## LUT
+- Lookup table
+- Implements a 1-bit function for a given n-length bit pattern
+- Store all answers, and use a multiplexer to output the correct answer
