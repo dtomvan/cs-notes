@@ -122,3 +122,9 @@ Wanna fuck around w this shit? https://nandgame.com
 - Standardized function representations:
   - SOP (sum-of-product) = DNF
   - POS (product-of-sum) = CNF
+- Some definitions:
+  - Complement: negation
+  - Literal: literal
+  - Implicant: conjunction of literals
+  - Minterm: implicant with all input variables
+  - Maxterm: disjunction with all input variables as literals
