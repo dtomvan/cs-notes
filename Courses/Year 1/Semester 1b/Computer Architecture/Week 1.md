@@ -160,3 +160,5 @@ Wanna fuck around w this shit? https://nandgame.com
 - The connections may change, hence it’s programmable
 
 ## Logical completeness
+- It’s like a turing machine for logic: any logical expression can be achieved thru a PLA
+- Also, the set of {and,or,not} is logically complete, just like nand, because you can make the other three out of a combination of nand gates
