@@ -172,7 +172,15 @@ Wanna fuck around w this shit? https://nandgame.com
 > I still have to read the book on this part of the material.
 > H&H Chap. 2
 
-It’s a 
+It’s like a nothing gate, but with a switch:
+| E | A | Y |
+|---|---|---|
+| 0 | 0 | Z |
+| 0 | 1 | Z |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+
+
 
 ## Logical completeness
 - It’s like a turing machine for logic: any logical expression can be achieved thru a PLA
