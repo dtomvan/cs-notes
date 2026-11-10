@@ -84,7 +84,8 @@ Wanna fuck around w this shit? https://nandgame.com
     - f.i.: given three inputs $A$, $B$, and $C$, we can have outputs $E$ and $G$:
       - $E = F(A, B, C)$
       - $G = F(C,B,A)$
-      - where $F(X,Y,Z) = (X \xor Y) \xor Z$
+      - where $F(X,Y,Z) = (X \oplus Y) \oplus Z$
+    - 
   - Timing spec (delay between inputs changing and outputs updating)
 - Two types:
   - Combinational logic
