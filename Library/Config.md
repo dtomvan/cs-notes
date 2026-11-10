@@ -92,7 +92,28 @@ config.set("view.defaults", {
 
 ```
 
-#meta
+## Rounded code blocks
+
+```space-style
+.sb-code {
+  padding: 2px;
+  border: var(--base02) 1px solid;
+  border-radius: 5px;
+}
+```
+
+Really hacky: detect top line by the fact it has the copy button on it, and the bottom line that it has \`\`\` and no copy button...
+
+```space-style
+.sb-line-fenced-code:has(.sb-actions) {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.sb-line-fenced-code:not(:has(.sb-actions)):has(.sb-meta) {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+```
 
 ```space-lua
 -- managed-by: configuration-manager
