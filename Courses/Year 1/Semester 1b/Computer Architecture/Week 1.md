@@ -96,4 +96,7 @@ Wanna fuck around w this shit? https://nandgame.com
   - Closure: $a,b \in B \implies (a + b \in B) \land (a \cdot b \in B)$
   - Commutativity: $a,b \in B \implies (a + b = b + a) \land (a \cdot b = b \cdot a)$
   - Identity: $0,1 \in B \implies (a + 0 = a) \land (a \cdot 1 = a)$
+  - Distributive laws:
+    - $a,b,c \in B \implies a + (b \cdot c) = (a + b) \cdot (a + c)$
+    - $a,b,c \in B \implies a \cdot (b + c) = (a \cdot b) + (a \cdot c)$
   - 
