@@ -161,6 +161,7 @@ Wanna fuck around w this shit? https://nandgame.com
 
 ### Comparator
 - For $n$ input bits, check if two sets of $n$-input values are equal
+- It is achieved by XNOR-ing all the bits respectively (XNOR is a a 1-bit comparator), and AND-ing the result.
 
 ### Tri-state buffer
 > **warning** TODO
