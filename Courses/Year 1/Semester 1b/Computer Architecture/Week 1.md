@@ -141,4 +141,6 @@ Wanna fuck around w this shit? https://nandgame.com
 
 ## Multiplexer
 - “Selector”
-- Given a selector S ($log_2 n$ bits) and n inputs, “select” one of 
+- Given a selector S ($log_2 n$ bits) and n inputs, “select” one of the inputs
+
+## 
