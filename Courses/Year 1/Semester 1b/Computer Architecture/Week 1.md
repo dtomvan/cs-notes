@@ -131,3 +131,11 @@ Wanna fuck around w this shit? https://nandgame.com
 
 ## Combinational components
 ### Decoder
+- $n$ inputs -> $2^n$ outputs
+- “detects” which bit pattern is passed in
+- f.i.:
+  - 00 -> 0001
+  - 01 -> 0010
+  - 10 -> 0100
+  - 11 -> 1000
+
