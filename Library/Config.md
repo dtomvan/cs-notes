@@ -55,6 +55,8 @@ view.define {
   source = function()
     local pages = {}
     for _, page in ipairs(query[[from index.contentPages("course")]]) do
+      page.name = string.gsub(page.name, "^Courses/", "")
+      page.ref = string.gsub(page.ref, "^Courses/", "")
       table.insert(pages, page)
     end
     return pages
@@ -71,7 +73,7 @@ view.define {
   },
   onSelect = function(o)
     if o.ref then
-      editor.navigate(o.ref)
+      editor.navigate("Courses/" .. o.ref)
     end
     -- Opening a section page also unfolds its node in the tree.
     if o.hasChildren then
