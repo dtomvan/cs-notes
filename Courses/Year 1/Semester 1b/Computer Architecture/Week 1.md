@@ -85,8 +85,13 @@ Wanna fuck around w this shit? https://nandgame.com
       - $E = F(A, B, C)$
       - $G = F(C,B,A)$
       - where $F(X,Y,Z) = (X \oplus Y) \oplus Z$
-    - 
   - Timing spec (delay between inputs changing and outputs updating)
 - Two types:
   - Combinational logic
   - Sequential logic
+
+## Boolean algebra
+- The logic gates rely on boolean algebra, which rely on certain axioms:
+  - Def. B: $B = \{0,1\} \text{ where } 0\not=1$
+  - Closure: $a,b \in B \implies (a + b \in B) \land (a \cdot b \in B)$
+  - 
