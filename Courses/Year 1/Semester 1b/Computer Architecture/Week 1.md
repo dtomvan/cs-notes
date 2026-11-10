@@ -158,3 +158,5 @@ Wanna fuck around w this shit? https://nandgame.com
 - It’s like SOP in real life
 - Starts with $2^n$ AND-gates, which then can be connected up to $m$ OR-gates
 - The connections may change, hence it’s programmable
+
+## Logical completeness
