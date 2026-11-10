@@ -128,3 +128,6 @@ Wanna fuck around w this shit? https://nandgame.com
   - Implicant: conjunction of literals
   - Minterm: implicant with all input variables
   - Maxterm: disjunction with all input variables as literals
+
+## Combinational components
+### Decoder
