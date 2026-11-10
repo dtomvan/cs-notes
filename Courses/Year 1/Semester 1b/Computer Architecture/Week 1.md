@@ -68,3 +68,4 @@ Wanna fuck around w this shit? https://nandgame.com
 - p-type: bubble, source at the top, drain at the bottom
   - Closed at 0v at the gate
 - work like wall switches
+- CMOS = Complementary MOS, it’s nMOS + pMOS
