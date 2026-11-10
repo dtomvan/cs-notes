@@ -118,5 +118,5 @@ Wanna fuck around w this shit? https://nandgame.com
   - Simplification theorems:
     - $a \cdot b + a \cdot \bar b = a$
     - $a + a \cdot b = a$
-    - DeM: $\overline{a_1+a_2+\dots+a_n} = \overline{a_1} \cdot \overline{a_2} \cdot \dots \cdot \overline{a_n}$
+    - DeM: $\overline{a_1+a_2+\dotso+a_n} = \overline{a_1} \cdot \overline{a_2} \cdot \dotso \cdot \overline{a_n}$
     - 
