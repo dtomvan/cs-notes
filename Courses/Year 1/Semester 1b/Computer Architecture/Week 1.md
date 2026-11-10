@@ -162,6 +162,7 @@ Wanna fuck around w this shit? https://nandgame.com
 ### Tri-state buffer
 > **warning** TODO
 > I still have to read the book on this part of the material.
+> H&H Chap. 2
 
 ## Logical completeness
 - It’s like a turing machine for logic: any logical expression can be achieved thru a PLA
