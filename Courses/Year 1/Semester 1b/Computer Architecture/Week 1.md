@@ -69,6 +69,7 @@ Wanna fuck around w this shit? https://nandgame.com
   - Closed at 0v at the gate
 - work like wall switches
 - CMOS = Complementary MOS, it’s nMOS + pMOS
-  - p is used to **p**ull the voltage u**p**
-  - n is used to take the voltage dow**n**
+  - p is used to **p**ull the voltage u**p** (carry 1’s)
+  - n is used to take the voltage dow**n** (carry 0’s)
+  - these are combined because p’s are bad at carrying zeroes, and vice versa, for electron reasons :D
   - 
