@@ -80,8 +80,12 @@ Wanna fuck around w this shit? https://nandgame.com
 - What you get is a *logic circuit*
 - Composed of:
   - Functional spec
+    - It’s literally writing the relationship between the inputs and the outputs as a *function*
+    - f.i.: given three inputs $A$, $B$, and $C$, we can have outputs $E$ and $G$:
+      - $E = F(A, B, C)$
+      - $G = F(C,B,A)$
+      - where $F(X,Y,Z) = (X \xor Y) \xor Z$
   - Timing spec (delay between inputs changing and outputs updating)
 - Two types:
   - Combinational logic
   - Sequential logic
-- 
