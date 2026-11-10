@@ -91,9 +91,10 @@ Wanna fuck around w this shit? https://nandgame.com
   - Sequential logic
 
 ## Boolean algebra
-- The logic gates rely on boolean algebra, which rely on certain axioms:
+- The logic gates rely on boolean algebra, which rely on certain axioms (skip this shit if you took logic tbh):
   - Def. B: $B = \{0,1\} \text{ where } 0\not=1$
   - Closure: $a,b \in B \implies (a + b \in B) \land (a \cdot b \in B)$
+  - Associativity: $a,b,c \in B \implies a + (b + c) = (a + b) + c$
   - Commutativity: $a,b \in B \implies (a + b = b + a) \land (a \cdot b = b \cdot a)$
   - Identity: $0,1 \in B \implies (a + 0 = a) \land (a \cdot 1 = a)$
   - Distributive laws:
@@ -114,3 +115,4 @@ Wanna fuck around w this shit? https://nandgame.com
   - Laws of complementarity:
     - $a + \bar a = 1$
     - $a \cdot \bar a = 0$
+  - 
