@@ -55,6 +55,7 @@ view.define {
   source = function()
     local pages = {}
     for _, page in ipairs(query[[from index.contentPages("course")]]) do
+      -- HACK: get rid of Courses/ prefix, because we are guaranteed to be in that folder because of how I structured my shit
       page.name = string.gsub(page.name, "^Courses/", "")
       page.ref = string.gsub(page.ref, "^Courses/", "")
       table.insert(pages, page)
