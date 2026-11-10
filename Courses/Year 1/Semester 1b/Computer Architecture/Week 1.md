@@ -102,3 +102,12 @@ Wanna fuck around w this shit? https://nandgame.com
   - Complement:
     - $a + \complement a = 1$
     - $a \cdot \complement a = 0$
+  - Operations with 0 and 1:
+    - $a + 0 = a$
+    - $a + 1 = 1$
+    - $a \cdot 0 = 0$
+    - $a \cdot 1 = a$
+  - Idempotency:
+    - $a + a = a$
+    - $a \cdot a = a$
+  - 
