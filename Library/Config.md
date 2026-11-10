@@ -105,11 +105,11 @@ config.set("view.defaults", {
 Really hacky: detect top line by the fact it has the copy button on it, and the bottom line that it has \`\`\` and no copy button...
 
 ```space-style
-.sb-line-fenced-code:has(.sb-actions) {
+.sb-line-code-outside:has(.sb-actions) {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.sb-line-fenced-code:not(:has(.sb-actions)):has(.sb-meta) {
+.sb-line-code-outside:not(:has(.sb-actions)) {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
