@@ -100,4 +100,5 @@ Wanna fuck around w this shit? https://nandgame.com
     - $a,b,c \in B \implies a + (b \cdot c) = (a + b) \cdot (a + c)$
     - $a,b,c \in B \implies a \cdot (b + c) = (a \cdot b) + (a \cdot c)$
   - Complement:
-    - $a + \complement a = 
+    - $a + \complement a = 1$
+    - $a \cdot \complement a = 0$
