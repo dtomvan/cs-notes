@@ -1,4 +1,8 @@
-
+```space-style
+html {
+  --sb-tree-indent: .8rem;
+}
+```
 
 ```space-lua
 -- boot: true
