@@ -39,6 +39,7 @@ query [[
   select templates.pageItem(p)
 ]]
  -->
+* [[Courses/Year 1/Semester 1b/Computer Architecture/A1.pdf]]
 * [[Courses/Year 1/Semester 1b/Computer Architecture/L1.pdf]]
 * [[Courses/Year 1/Semester 1b/Computer Architecture/L2.pdf]]
 <!--/lua-->
