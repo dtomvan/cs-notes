@@ -120,5 +120,5 @@ Wanna fuck around w this shit? https://nandgame.com
     - $a + a \cdot b = a$
     - DeM: $\overline{a_1+a_2+\dotso+a_n} = \overline{a_1} \cdot \overline{a_2} \cdot \dotso \cdot \overline{a_n}$
 - Standardized function representations:
-  - SOP (sum-of-product)
-  - POS (product-of-sum)
+  - SOP (sum-of-product) = DNF
+  - POS (product-of-sum) = CNF
