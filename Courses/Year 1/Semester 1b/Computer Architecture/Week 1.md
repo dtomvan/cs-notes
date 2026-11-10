@@ -154,3 +154,7 @@ Wanna fuck around w this shit? https://nandgame.com
 - One full adder adds two bits, therefore chaining multiple adds a multibit number
 
 ### Programmable Logic Array (PLA)
+- Implements a function from any n inputs to any m outputs
+- It’s like SOP in real life
+- Starts with $2^n$ AND-gates, which then can be connected up to $m$ OR-gates
+- The connections may change, hence it’s programmable
