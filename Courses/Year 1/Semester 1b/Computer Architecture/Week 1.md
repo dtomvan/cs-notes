@@ -100,8 +100,8 @@ Wanna fuck around w this shit? https://nandgame.com
     - $a,b,c \in B \implies a + (b \cdot c) = (a + b) \cdot (a + c)$
     - $a,b,c \in B \implies a \cdot (b + c) = (a \cdot b) + (a \cdot c)$
   - Complement:
-    - $a + \complement a = 1$
-    - $a \cdot \complement a = 0$
+    - $a + \bar a = 1$
+    - $a \cdot \bar a = 0$
   - Operations with 0 and 1:
     - $a + 0 = a$
     - $a + 1 = 1$
@@ -110,4 +110,7 @@ Wanna fuck around w this shit? https://nandgame.com
   - Idempotency:
     - $a + a = a$
     - $a \cdot a = a$
-  - 
+  - Involution: $\overline{(\bar a)} = a$
+  - Laws of complementarity:
+    - $a + \bar a = 1$
+    - $a \cdot \bar a = 0$
