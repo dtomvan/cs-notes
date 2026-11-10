@@ -91,7 +91,7 @@ Wanna fuck around w this shit? https://nandgame.com
   - Sequential logic
 
 ## Boolean algebra
-- The logic gates rely on boolean algebra, which rely on certain axioms (skip this shit if you took logic tbh):
+- The functional spec for logic circuits relies on boolean algebra, which in turn rely on certain axioms (skip this shit if you took logic tbh):
   - Def. B: $B = \{0,1\} \text{ where } 0\not=1$
   - Closure: $a,b \in B \implies (a + b \in B) \land (a \cdot b \in B)$
   - Associativity: $a,b,c \in B \implies a + (b + c) = (a + b) + c$
@@ -119,4 +119,6 @@ Wanna fuck around w this shit? https://nandgame.com
     - $a \cdot b + a \cdot \bar b = a$
     - $a + a \cdot b = a$
     - DeM: $\overline{a_1+a_2+\dotso+a_n} = \overline{a_1} \cdot \overline{a_2} \cdot \dotso \cdot \overline{a_n}$
-    - 
+- Standardized function representations:
+  - SOP (sum-of-product)
+  - POS (product-of-sum)
