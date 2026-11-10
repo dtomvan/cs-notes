@@ -159,6 +159,10 @@ Wanna fuck around w this shit? https://nandgame.com
 - Starts with $2^n$ AND-gates, which then can be connected up to $m$ OR-gates
 - The connections may change, hence it’s programmable
 
+### Tri-state buffer
+> **warning** TODO
+> I still have to read the book on this part of the material.
+
 ## Logical completeness
 - It’s like a turing machine for logic: any logical expression can be achieved thru a PLA
 - Also, the set of {and,or,not} is logically complete, just like nand, because you can make the other three out of a combination of nand gates
