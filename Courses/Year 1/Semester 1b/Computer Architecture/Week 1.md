@@ -167,12 +167,12 @@ Wanna fuck around w this shit? https://nandgame.com
 - Has multiple “functions” in one, and “executes” one or the other depending on some input
 - Uses a MUX to send the signal to one or the other circuit, like a 4-bit full adder
 
-
-
 ### Tri-state buffer
 > **warning** TODO
 > I still have to read the book on this part of the material.
 > H&H Chap. 2
+
+It’s a 
 
 ## Logical completeness
 - It’s like a turing machine for logic: any logical expression can be achieved thru a PLA
