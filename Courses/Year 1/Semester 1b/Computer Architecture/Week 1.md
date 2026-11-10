@@ -139,3 +139,6 @@ Wanna fuck around w this shit? https://nandgame.com
   - 10 -> 0100
   - 11 -> 1000
 
+## Multiplexer
+- “Selector”
+- Given a selector S ($log_2 n$ bits) and n inputs, “select” one of 
