@@ -10,7 +10,8 @@
 - Book: https://u.toostveen.nl/dms and https://discrete.openmathbooks.org
 - Lectures: Wednesday (4h!)
 - Tutorials: Tuesday
-- Assessment: final (90%), quizzes/homework (10%)
+- Assessment: final (90%), quizzes/homework (10%), _no midterm_
+  - The idea is that hw is worth nothing so you don’t have to use ChatGPT to pass and the assignments are mostly for your own sake
 - Lecturer: Ivan Blitznets
 
 ---
