@@ -22,12 +22,13 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 - Subset: $S \subseteq T \iff \forall x (x \in S \rightarrow x \in T)$
 - Proper subset: $S \subsetneq T \iff S \subseteq T \land S \neq T$
 - Intervals of $\R$:
-  - $[a, b] = \{x \in R \| A \leq x \leq b\}$
-  - $(a, b) = \{x \in R \| A \lt x \lt b\}$
+  - $[a, b] = \{x \in R | A \leq x \leq b\}$
+  - $(a, b) = \{x \in R | A \lt x \lt b\}$
   - And so on
 - Equality: $A = B \iff \forall x (x \in A \leftrightarrow x \in B)$
-- Powerset: $\mathcal{P}(S) = \{T \| T \subseteq S\}$
+- Powerset: $\mathcal{P}(S) = \{T | T \subseteq S\}$
 - Cardinality: $|S|$ is the amount of elements
+- Universes: like the domain of discourse in logic
 - Defined by axioms:
   - Infinity
   - Extensibilty
