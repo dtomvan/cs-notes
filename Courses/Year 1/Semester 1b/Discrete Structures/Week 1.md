@@ -27,6 +27,7 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
   - And so on
 - Equality: $A = B \iff \forall x (x \in A \leftrightarrow x \in B)$
 - Powerset: $\mathcal{P}(S) = \{T \| T \subseteq S\}$
+- Cardinality: $\card
 - Defined by axioms:
   - Infinity
   - Extensibilty
