@@ -49,6 +49,10 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
   - 1 iff $A \in U$
   - 0 iff $A \notin U$
 - Countable set: if all elements of a set can be written as a sequence (enumerated), it’s countable
-- String: sequence of symbols in a given 
+- String: sequence of symbols in a given alphabet
+- Alphabet: non-empty finite set $\Sigma$ of letters
+- $\Sigma^{*}$ denotes all possible words/strings under the alphabet
+- Language L: $L \subseteq \Sigma^{*}$
+- 
 ## Integers
 ## Matrices
