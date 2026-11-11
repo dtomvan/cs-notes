@@ -78,5 +78,8 @@ If $r = 0$ we say $n | m$ “n divides m”
 ### Prime numbers
 Given the set of divisors of $n$, $D_n = \{ x | x \in \N \land (x | n) \}$, $n$ is a prime number iff $|D_n| = 2$ and $1 \in D_n$ and $n \in D_n$.
 
+### GCD
+It exists. RABABR or something.
+
 ## Matrices
 
