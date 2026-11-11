@@ -88,4 +88,8 @@ LCM(m, n) = \frac{m \cdot n}{gcd(m,n)}
 $$
 
 ## Matrices
+- Vectors:
+  - Row vector: $1 \times n$ matrix
+  - Column vector: $n \times 1$ matrix
+  - Scalar product of row vector and columns vector: sum of resp. multiplication
 
