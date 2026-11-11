@@ -8,8 +8,10 @@
 
 - Ocasys: https://ocasys.rug.nl/current/catalog/course/WBCS011-05#WBCS011-05.2026-2027.1
 - Book: https://u.toostveen.nl/dms
-- Lectures: Wednesday
+- Lectures: Wednesday (4h!)
+- Tutorials: Tuesday
 - Assessment: final (90%), quizzes/homework (10%)
+- Lecturer: Ivan Blitznets
 
 ---
 
