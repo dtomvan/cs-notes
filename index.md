@@ -1,4 +1,4 @@
-“Lite” version of this website (SSR, no LaTeX or other fancy stuff) at: https://cs-mini.toostveen.nl
+“Lite” version of this website (SSR, no LaTeX or other fancy stuff) at: https://cs-mini.toostveen.nl (replace any cs.toostveen.nl URL with cs-mini to get the same page but in the lite variant)
 
 # Year 1
 - [Copyparty](https://fs.toostveen.nl/pub/UG/CS-1) (only for books, most content will live here now)
