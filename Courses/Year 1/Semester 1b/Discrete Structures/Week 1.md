@@ -91,5 +91,7 @@ $$
 - Vectors:
   - Row vector: $1 \times n$ matrix
   - Column vector: $n \times 1$ matrix
-  - Scalar product of row vector and columns vector: sum of resp. multiplication
+  - Scalar product of row vector and column vector ($c_{ij}$): sum of resp. multiplication
+  - Product of two matrices: $AB = [c_{ij}]$
+  - 
 
