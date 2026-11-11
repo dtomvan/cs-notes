@@ -53,6 +53,8 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 - Alphabet: non-empty finite set $\Sigma$ of letters
 - $\Sigma^{*}$ denotes all possible words/strings under the alphabet
 - Language L: $L \subseteq \Sigma^{*}$
-- 
+- Empty word: $\epsilon$
+- concatenation: $w_1 = hello; w_2 = world \implies w_1 \cdot w_2 = helloworld$
+- Associative but not commutative
 ## Integers
 ## Matrices
