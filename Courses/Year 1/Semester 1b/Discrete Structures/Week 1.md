@@ -101,5 +101,6 @@ $$
 - Collections of objects, plus some operations on them
 - F.i. $(\R, +, \times)$
 - Arities, prefix/infix/postfix notation exists.
-- 
+- Closed operation: op maps from $T \rightarrow T$
+- f.i. $\Sigma^*$ is closed wrt concatenation
 
