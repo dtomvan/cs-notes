@@ -10,9 +10,17 @@ parentCourse: "[[Courses/Year 1/Semester 1a/Programming Fundamentals]]"
 ## Lecture 10?
 
 - Date: 2026-11-09
-- Topic:
+- Topic: Dafny
 
-## Recall: 
+## Recall: proof rules for while loops
+1. Invariant: $J \land \neg B \rightarrow Q$
+2. Initialization: $\{P\} S; \{J\}$
+3. variant function: $J \land B \rightarrow vf \ge 0$
+4. Body:
+   1. $\{J \land B \land vf = V\}$
+   2. $S$
+   3. $\{J \land vf < V\}$
+5. RIID (Rewrite It In Dafny)
 
 ## From recurrence to while loop
 
