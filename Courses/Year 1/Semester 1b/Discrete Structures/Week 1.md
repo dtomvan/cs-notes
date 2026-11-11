@@ -17,6 +17,9 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 
 ## Sets
 - Unordered collection of distinct objects
+- Can be defined by predicates
+- Empty set: $\forall x (x \notin \emptyset)$
+- Subset: $S \subseteq T \iff \forall x (x \in S \rightarrow x \in T)$
 - Defined by axioms:
   - Infinity
   - Extensibilty
