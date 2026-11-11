@@ -16,6 +16,11 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 - Today: Chap 1 of the book, fundamentals
 
 ## Sets
+- Unordered collection of distinct objects
+- Defined by axioms:
+  - Infinity
+  - Extensibilty
+
 ## Sequences
 ## Integers
 ## Matrices
