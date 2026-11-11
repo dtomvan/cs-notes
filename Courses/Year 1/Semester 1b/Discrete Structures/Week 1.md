@@ -91,7 +91,7 @@ $$
 - Vectors:
   - Row vector: $1 \times n$ matrix
   - Column vector: $n \times 1$ matrix
-  - Scalar product of row vector and column vector ($c_{ij}$): sum of resp. multiplication
+  - Scalar product of row vector and column vector ($c_{ij}$): sum of resp. multiplication (row 1 with col 1, row 2 with col 2...)
   - Product of two matrices: $AB = [c_{ij}]$
-  - 
+  - Matrix multiplication is associative but not commutative
 
