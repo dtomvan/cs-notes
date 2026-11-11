@@ -72,5 +72,5 @@ $$
 m = q \cdot n + r \land 0 \leq r < n
 $$
 
-
+If $r = 0$ we say $n | m$ “n divides m”
 ## Matrices
