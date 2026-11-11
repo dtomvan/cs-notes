@@ -81,5 +81,11 @@ Given the set of divisors of $n$, $D_n = \{ x | x \in \N \land (x | n) \}$, $n$ 
 ### GCD
 It exists. RABABR or something.
 
+### LCM
+
+$$
+LCM(m, n) = \frac{m \cdot n}{gcd(m,n)}
+$$
+
 ## Matrices
 
