@@ -44,5 +44,6 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 - Proofs (Annotated Linear Proof / ALP / chain-of-equivalences)
 
 ## Sequences
+- Sequence is a list of objects in definite order
 ## Integers
 ## Matrices
