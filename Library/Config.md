@@ -128,3 +128,23 @@ config.set("frontmatterFolding.foldByDefault", "always")
 config.set("fonts.ui", "ia-writer-quattro")
 config.set("fonts.editor", "ia-writer-quattro")
 ```
+
+
+# Snippets
+
+## Matrix
+```space-lua
+slashCommand.define {
+  name = "matrix",
+  description = "insert a latex equation with a bmatrix in it",
+  run = function()
+    editor.insertAtCursor([==[
+$$
+\begin{bmatrix}
+    |^|
+\end{bmatrix}
+$$
+]==], false, true)
+  end
+}
+```

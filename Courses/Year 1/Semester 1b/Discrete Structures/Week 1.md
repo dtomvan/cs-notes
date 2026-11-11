@@ -66,7 +66,6 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 
 ## Integers
 
-
 ### Division 
 For all $m,n \in \Z$, with $n > 0$, there are unique integers q and r s.t.:
 
@@ -80,3 +79,10 @@ If $r = 0$ we say $n | m$ “n divides m”
 Given the set of divisors of $n$, $D_n = \{ x | x \in \N \land (x | n) \}$, $n$ is a prime number iff $|D_n| = 2$ and $1 \in D_n$ and $n \in D_n$.
 
 ## Matrices
+
+$$
+\begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}
+$$
