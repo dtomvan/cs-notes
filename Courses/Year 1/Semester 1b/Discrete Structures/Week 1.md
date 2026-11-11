@@ -58,6 +58,11 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 - Associative but not commutative
 - concatenation of languages: $L \cdot M = LM = \{s \cdot t | s \in L \land t \in M\}$, as in the concatenation of all words in L with all other words in M
 - Star of lanuage: $L^*$ all concatenations with itself (zero or more times)
+- Regular expessions: defined recursively in terms of members of the alphabet, and other operations:
+  - $\epsilon$ is regexp
+  - $\alpha \in \Sigma$ is regexp
+  - if $\alpha$ and $\beta$ are regep, then $(\alpha \cdot \beta)$ and $(\alpha \lor \beta)$ are regexp
+  - if $\alpha$ is regexp, then so is $(\alpha)^*$
 - 
 ## Integers
 ## Matrices
