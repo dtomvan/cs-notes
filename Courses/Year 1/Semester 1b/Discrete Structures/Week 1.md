@@ -116,5 +116,5 @@ $$
 $$
 (f.i.: n = 3)
 
-
+- Identity elements are unique
 
