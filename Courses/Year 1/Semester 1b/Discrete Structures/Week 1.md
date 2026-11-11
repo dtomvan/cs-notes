@@ -41,6 +41,7 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
   - Distributivity: $A \cup (B \cap C) = (A \cup B) \cap (A \cap C)$
   - Idempotence etc.
   - DeM: $\overline{A \cup B} = \bar A \cap \bar B$
+- Proofs (Annotated Linear Proof / ALP / chain-of-equivalences)
 
 ## Sequences
 ## Integers
