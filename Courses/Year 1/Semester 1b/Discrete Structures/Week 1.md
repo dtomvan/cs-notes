@@ -66,7 +66,7 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 
 ## Integers
 
-For all $m,n \in \Z$, with $n > 0$, then there are unique integers q and r s.t.:
+For all $m,n \in \Z$, with $n > 0$, there are unique integers q and r s.t.:
 
 $$
 m = q \cdot n + r \land 0 \leq r < n
