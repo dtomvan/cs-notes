@@ -56,5 +56,8 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 - Empty word: $\epsilon$
 - concatenation: $w_1 = hello; w_2 = world \implies w_1 \cdot w_2 = helloworld$
 - Associative but not commutative
+- concatenation of languages: $L \cdot M = LM = \{s \cdot t | s \in L \land t \in M\}$, as in the concatenation of all words in L with all other words in M
+- Star of lanuage: $L^*$ all concatenations with itself (zero or more times)
+- 
 ## Integers
 ## Matrices
