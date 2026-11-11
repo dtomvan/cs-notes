@@ -80,9 +80,3 @@ Given the set of divisors of $n$, $D_n = \{ x | x \in \N \land (x | n) \}$, $n$ 
 
 ## Matrices
 
-$$
-\begin{bmatrix}
-1 & 2 \\
-3 & 4
-\end{bmatrix}
-$$
