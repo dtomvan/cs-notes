@@ -63,6 +63,14 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
   - $\alpha \in \Sigma$ is regexp
   - if $\alpha$ and $\beta$ are regexp, then $(\alpha \cdot \beta)$ and $(\alpha \lor \beta)$ are regexp
   - if $\alpha$ is regexp, then so is $(\alpha)^*$
-- 
+
 ## Integers
+
+For all $m,n \in \Z$, with $n > 0$, then there are unique integers q and r s.t.:
+
+$$
+m = q \cdot n + r \land 0 \leq r < n
+$$
+
+
 ## Matrices
