@@ -97,3 +97,9 @@ $$
 - Transpose of a matrix: $M^T$ “rotate the matrix over the diagonal”
 - Symmetric matrix: if $M = M^T$.
 
+## Mathematical structures
+- Collections of objects, plus some operations on them
+- F.i. $(\R, +, \times)$
+- Arities, prefix/infix/postfix notation exists.
+- 
+
