@@ -13,6 +13,7 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 - Topic: Course Organisation
 
 - We will basically be going over the book start-finish in order...
+- Today: Chap 1 of the book, fundamentals
 
 ## Sets
 ## Sequences
