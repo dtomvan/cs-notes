@@ -20,6 +20,12 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 - Can be defined by predicates
 - Empty set: $\forall x (x \notin \emptyset)$
 - Subset: $S \subseteq T \iff \forall x (x \in S \rightarrow x \in T)$
+- Proper subset: $S \subsetneq T \iff S \subset T \land S \neq T$
+- Intervals of $\R$:
+  - $[a, b] = \{x \in R \| A \leq x \leq b\}$
+  - $(a, b) = \{x \in R \| A \lt x \lt b\}$
+  - And so on
+- Equality: $A = B \iff \forall x (x \in A \leftrightarrow x \in B)$
 - Defined by axioms:
   - Infinity
   - Extensibilty
