@@ -98,9 +98,23 @@ $$
 - Symmetric matrix: if $M = M^T$.
 
 ## Mathematical structures
+- Generalization of all of the above
 - Collections of objects, plus some operations on them
-- F.i. $(\R, +, \times)$
+- F.i. $(\R, +, \times)$ or $(B, \land, \lor, \neg)$
 - Arities, prefix/infix/postfix notation exists.
 - Closed operation: op maps from $T \rightarrow T$
 - f.i. $\Sigma^*$ is closed wrt concatenation
+- Identity element: if $\square$ is an operation on $V$, then $e$ is an identity element iff for all $x \in V$, $x \square e = e \square x = x$.
+  - For matrix: for an $n \times n$ matrix, the identity matrix $I_n$ is:
+
+$$
+\begin{bmatrix}
+   1 & 0 & 0 \\
+    0 & 1 & 0 \\
+    0 & 0 & 1
+\end{bmatrix}
+$$
+(f.i.: n = 3)
+
+
 
