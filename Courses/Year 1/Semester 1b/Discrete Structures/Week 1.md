@@ -31,7 +31,9 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 - Universes: like the domain of discourse in logic
 - Union: $A \cup B = \{ x | x \in A \lor x \in B\}$
 - Intersection: $A \cap B = \{x | x \in A \land x \in B\}$
+- Difference: $A \setminus B = \{x | x \in A \land x \notin B\}$
 - 
+
 ## Sequences
 ## Integers
 ## Matrices
