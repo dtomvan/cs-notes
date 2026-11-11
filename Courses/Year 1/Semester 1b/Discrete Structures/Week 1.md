@@ -45,7 +45,6 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 
 ## Sequences
 - Sequence is a list of objects in definite order
-- Chracteristic function: $f_A : U \rightarrow \{0,1\}$
-- 
+- Characteristic function: $f_A : U \rightarrow \{0,1\}$
 ## Integers
 ## Matrices
