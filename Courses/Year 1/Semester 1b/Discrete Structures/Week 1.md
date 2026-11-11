@@ -29,10 +29,9 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 - Powerset: $\mathcal{P}(S) = \{T | T \subseteq S\}$
 - Cardinality: $|S|$ is the amount of elements
 - Universes: like the domain of discourse in logic
-- Defined by axioms:
-  - Infinity
-  - Extensibilty
-
+- Union: $A \cup B = \{ x | x \in A \lor x \in B\}$
+- Intersection: $A \cap B = \{x | x \in A \land x \in B\}$
+- 
 ## Sequences
 ## Integers
 ## Matrices
