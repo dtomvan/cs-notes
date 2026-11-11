@@ -46,5 +46,9 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
 ## Sequences
 - Sequence is a list of objects in definite order
 - Characteristic function: $f_A : U \rightarrow \{0,1\}$
+  - 1 iff $A \in U$
+  - 0 iff $A \notin U$
+- Countable set: if all elements of a set can be written as a sequence (enumerated), it’s countable
+- 
 ## Integers
 ## Matrices
