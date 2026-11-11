@@ -39,7 +39,7 @@ parentCourse: "[[Courses/Year 1/Semester 1b/Discrete Structures]]"
   - Commutativity: $A \cup B = B \cup A$
   - Associativity: $(A \cup B) \cup C = A \cup (B \cup C)$
   - Distributivity: $A \cup (B \cap C) = (A \cup B) \cap (A \cap C)$
-  - Idemptence etc.
+  - Idempotence etc.
   - DeM: $\overline{A \cup B} = \bar A \cap \bar B$
 
 ## Sequences
