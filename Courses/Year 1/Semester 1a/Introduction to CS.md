@@ -24,6 +24,4 @@
   select templates.pageItem(p)
 ]] -->
 * [[Courses/Year 1/Semester 1a/Introduction to CS/Week 1]]
-* [[Courses/Year 1/Semester 1a/Introduction to CS/Week 2]]
-* [[Courses/Year 1/Semester 1a/Introduction to CS/Week 3]]
 <!--/lua-->
