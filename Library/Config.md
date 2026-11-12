@@ -104,7 +104,11 @@ for action, fn in pairs { ["Copy link to"] = editor.copyToClipboard, ["Open in"]
         print(editor.getCurrentPath())
         local meta = editor.getCurrentPageMeta()
         local ref
-        if not meta then
+        if meta then
+          ref = meta.ref or meta.name
+        else
+          ref = string.gsub(editor.getCurrentPath(), '\\.md$', '')
+        end
         pcall(fn, ([[https://%s.toostveen.nl/%s]]):format(domain, ref))
       end,
     }
