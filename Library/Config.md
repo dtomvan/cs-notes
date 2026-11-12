@@ -108,8 +108,6 @@ for action, fn in pairs { ["Copy link"] = editor.copyToClipboard, ["Open in"] = 
 end
 ```
 
-${widgets.button("hi", function() editor.openUrl("https://google.com") end)}
-
 ## Rounded code blocks
 
 ```space-style
