@@ -29,7 +29,6 @@ query[[
   where page == "Changelog" and not parent
   order by pos desc
   limit 1
-  select spacelua.interpolate([==[![[${}]]]==], _)
 ]]
 }
 ![[Changelog$latest]]
