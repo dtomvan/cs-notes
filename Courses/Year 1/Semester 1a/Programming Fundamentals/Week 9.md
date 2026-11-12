@@ -76,4 +76,8 @@ calc {
 
 ## Sets
 - Split rule: $\#V = \#(V \cap W) + \#(V \setminus W)$
-- 
+- $\#V = \#(V \setminus \{a\}) + ord(a \in V)$
+- Intervals:
+  - Closed: $[m..n] = \{k | m \leq k \leq n\}$
+  - Open: $(m..n) = \{k | m \lt k \lt n\}$
+  - Half-open: $[m..n) = \{k | m \leq k \lt n\}$
