@@ -45,3 +45,27 @@ That last step I just mentioned is called _active finalization_, by the way.
 
 Not much to write down here, the lecture is basically practicing proofs...
 
+## Lemma’s 
+In dafny, we can “program” a proof (example from the slides):
+
+```dafny
+lemma {:induction false} Increasing (x: int)
+ensures x < More(x)
+{
+  if x > 0 {
+    var y := x - 2;
+    Increasing(y);
+  }
+}
+```
+
+## Calc
+
+Dafny can verify that your calculus is correct.
+
+```
+calc {
+  5 * (x+3);
+  5*x + 15;
+}
+```
