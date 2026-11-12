@@ -73,3 +73,7 @@ calc {
   5*x + 15;
 }
 ```
+
+## Sets
+- Split rule: $\#V = \#(V \cap W) + \#(V \setminus W)$
+- 
