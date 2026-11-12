@@ -1,8 +1,11 @@
 - 2026-10-25: https://cs.toostveen.nl runs SilverBullet
   - Partly replaces copyparty, partly replaces the old MDBook
 - 2026-11-08: Lite version added at https://cs-mini.toostveen.nl
-- 2026-11-09: $latest
+- 2026-11-09:
   - Updated to SB `2.12.0-281-g0fbe7b51-2026-11-09T17-29-23Z`
     - Highlight: faster startup
     - In shambles, the lite version isn’t really needed as much anymore
   - Switched to iA Writer Quattro/Mono for typeface
+- 2026-11-12: $latest
+  - Added commands to copy/open the cs-mini variant of a given page
+  - Added `actionButton` for opening the current page at cs-mini.toostveen.nl

@@ -101,7 +101,6 @@ for action, fn in pairs { ["Copy link to"] = editor.copyToClipboard, ["Open in"]
     command.define {
       name = ("Navigate: %s %s.toostveen.nl"):format(action, domain),
       run = function()
-        print(editor.getCurrentPath())
         local meta = editor.getCurrentPageMeta()
         local ref
         if meta then
@@ -116,7 +115,7 @@ for action, fn in pairs { ["Copy link to"] = editor.copyToClipboard, ["Open in"]
 end
 
 actionButton.define {
-  name = "Open in cs-mini.toostveen.nl",
+  description = "Open in cs-mini.toostveen.nl",
   command = "Navigate: Open in cs-mini.toostveen.nl",
   icon = "external-link",
 }
