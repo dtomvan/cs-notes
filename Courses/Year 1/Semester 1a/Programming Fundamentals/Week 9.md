@@ -64,8 +64,12 @@ ensures x < More(x)
 Dafny can verify that your calculus is correct.
 
 ```
+assert 5 * (x+3) == 5*x + 15 by
 calc {
   5 * (x+3);
+  ==
+  5 * x + 5 * 3;
+  ==
   5*x + 15;
 }
 ```
