@@ -50,6 +50,7 @@ PDFs:
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/PFweek4.pdf]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/handoutsDafny1.pdf]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/handoutsDafny2.pdf]]
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/handoutsDafny3.pdf]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/lab2PF2627.pdf]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/lab3PF2627.pdf]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/lab4PF2627.pdf]]
