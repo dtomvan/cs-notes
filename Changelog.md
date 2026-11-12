@@ -6,6 +6,6 @@
     - Highlight: faster startup
     - In shambles, the lite version isn’t really needed as much anymore
   - Switched to iA Writer Quattro/Mono for typeface
-- 2026-11-12: $latest
+- 2026-11-12:
   - Added commands to copy/open the cs-mini variant of a given page
   - Added `actionButton` for opening the current page at cs-mini.toostveen.nl

@@ -25,10 +25,11 @@ See also the [[Changelog|full changelog]].
 Latest entry:
 ${
 query[[
+  -- Find the last element in the changelog by position, and insert a transclusion to it
   from index.objects("item")
   where page == "Changelog" and not parent
   order by pos desc
   limit 1
+  select spacelua.interpolate([==[![[${page}@${pos}]]]==], _)
 ]]
 }
-![[Changelog$latest]]
