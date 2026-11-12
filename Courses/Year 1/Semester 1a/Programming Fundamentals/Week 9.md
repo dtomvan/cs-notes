@@ -89,3 +89,4 @@ calc {
   - $Max V = Max (V \cap W) \textbf{ max } Max (V \setminus W)$
   - $Min V = Min (V \cap W) \textbf{ min } Min (V \setminus W)$
 - Families: sets but with parens
+- Product operator: $\Pi(\emptyset) = 1$
