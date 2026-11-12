@@ -101,7 +101,11 @@ for action, fn in pairs { ["Copy link to"] = editor.copyToClipboard, ["Open in"]
     command.define {
       name = ("Navigate: %s %s.toostveen.nl"):format(action, domain),
       run = function()
-        pcall(fn, spacelua.interpolate(([[https://%s.toostveen.nl/${ref}]]):format(domain), editor.getCurrentPageMeta()))
+        print(editor.getCurrentPath())
+        local meta = editor.getCurrentPageMeta()
+        local ref
+        if not meta then
+        pcall(fn, ([[https://%s.toostveen.nl/%s]]):format(domain, ref))
       end,
     }
   end
