@@ -81,3 +81,10 @@ calc {
   - Closed: $[m..n] = \{k | m \leq k \leq n\}$
   - Open: $(m..n) = \{k | m \lt k \lt n\}$
   - Half-open: $[m..n) = \{k | m \leq k \lt n\}$
+- Min and Max:
+  - They have definitions, but I don’t bother here sorry
+  - Max $\emptyset = -\infty$
+  - Min $\emptyset = \infty$
+  - $Max V = Max (V \cap W) \textbf{ max } Max (V \setminus W)$
+  - $Min V = Min (V \cap W) \textbf{ min } Min (V \setminus W)$
+- Families: sets but with parens
