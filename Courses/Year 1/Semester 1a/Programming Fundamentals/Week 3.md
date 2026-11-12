@@ -1,4 +1,5 @@
 ---
+date: 2026-09-14
 tags: week
 parentCourse: "[[Courses/Year 1/Semester 1a/Programming Fundamentals]]"
 ---

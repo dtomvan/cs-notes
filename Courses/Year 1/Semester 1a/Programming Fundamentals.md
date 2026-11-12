@@ -24,19 +24,12 @@ tags: course
 
 Weekly notes:
 
-<!--#lua query[[
-  from p = index.contentPages("week")
-  where p.parentCourse == "[[" .. editor.getCurrentPage() .. "]]"
-  select templates.pageItem(p)
-]] -->
-* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 10]]
-* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 2]]
-* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 3]]
-* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 4]]
-* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 6]]
-* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 7]]
-* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 9]]
-<!--/lua-->
+${query[[
+  from index.contentPages("week")
+  where parentCourse == "[[" .. editor.getCurrentPage() .. "]]"
+  order by date asc
+  select templates.pageItem(_)
+]]}
 
 PDFs:
 <!--#lua query [[
