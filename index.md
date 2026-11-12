@@ -30,6 +30,7 @@ query[[
   where page == "Changelog" and not parent
   order by pos desc
   limit 1
+  -- why page@pos? because ref may be "latest" if the ref thingy is set there, which breaks the transclusion
   select spacelua.interpolate([==[![[${page}@${pos}]]]==], _)
 ]]
 }
