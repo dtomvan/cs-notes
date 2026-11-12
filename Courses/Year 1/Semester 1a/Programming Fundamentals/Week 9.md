@@ -81,6 +81,7 @@ calc {
   - Closed: $[m..n] = \{k | m \leq k \leq n\}$
   - Open: $(m..n) = \{k | m \lt k \lt n\}$
   - Half-open: $[m..n) = \{k | m \leq k \lt n\}$
+  - Half open is very useful: $\#[m..n) = |m-n|$
 - Min and Max:
   - They have definitions, but I don’t bother here sorry
   - Max $\emptyset = -\infty$
