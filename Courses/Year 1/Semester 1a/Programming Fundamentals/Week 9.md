@@ -93,5 +93,8 @@ We can use calc and invariants to assume we already have some calculation that w
   - $Min V = Min (V \cap W) \textbf{ min } Min (V \setminus W)$
 - Families: sets but with parens
 - Product operator: $\Pi(\emptyset) = 1$
-- Sum: $\Sigma(a[i] | i : 0 <= i < n) = \Sigma(a[i] | i : 0$
+- Sum:
+  - $\Sigma(a[i] | i : 0 <= i < n)$
+  - Split rule: if $S(x) = \Sigma(a[i] | i : 0 \leq i < x)$ then $S(x+1) = \Sigma(a[i] | i : 0 \leq i < x + 1) = a[x] + \Sigma(a[i] | i : 0 \leq i < x) = a[x] + S(x)$
+  - Split domain: $i = x \lor i < x$
 
