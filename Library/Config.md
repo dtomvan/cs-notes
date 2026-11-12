@@ -96,6 +96,13 @@ config.set("view.defaults", {
   }
 })
 
+command.define {
+  name = "Navigate: Copy link to cs.toostveen.nl",
+  run = function()
+    editor.copyToClipboard(spacelua.interpolate([[https://cs.toostveen.nl/${ref}]], editor.getCurrentPageMeta()))
+    editor.flashNotification("Copied link to cs.toostveen.nl to clipboard")
+  end,
+}
 ```
 
 ## Rounded code blocks
