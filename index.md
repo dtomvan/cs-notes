@@ -23,4 +23,13 @@
 See also the [[Changelog|full changelog]].
 
 Latest entry:
+${
+query[[
+  from index.objects("item")
+  where page == "Changelog" and not parent
+  order by pos desc
+  limit 1
+  select spacelua.interpolate([==[![[${}]]]==], _)
+]]
+}
 ![[Changelog$latest]]
