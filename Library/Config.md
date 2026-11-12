@@ -96,14 +96,19 @@ config.set("view.defaults", {
   }
 })
 
-command.define {
-  name = "Navigate: Copy link to cs.toostveen.nl",
-  run = function()
-    editor.copyToClipboard(spacelua.interpolate([[https://cs.toostveen.nl/${ref}]], editor.getCurrentPageMeta()))
-    editor.flashNotification("Copied link to cs.toostveen.nl to clipboard")
-  end,
-}
+for action, fn in pairs { ["Copy link"] = editor.copyToClipboard, ["Open in"] = editor.openUrl } do
+  for domain in each { "cs", "cs-mini" } do
+    command.define {
+      name = ("Navigate: %s to %s.toostveen.nl"):format(action, domain),
+      run = function()
+        pcall(fn, spacelua.interpolate(([[https://%s.toostveen.nl/${ref}]]):format(domain), editor.getCurrentPageMeta()))
+      end,
+    }
+  end
+end
 ```
+
+${widgets.button("hi", function() editor.openUrl("https://google.com") end)}
 
 ## Rounded code blocks
 
