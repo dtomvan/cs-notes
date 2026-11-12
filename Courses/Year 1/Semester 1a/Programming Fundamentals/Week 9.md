@@ -74,6 +74,9 @@ calc {
 }
 ```
 
+## Wishful thinking
+We can use calc and invariants to assume we already have some calculation that we want, and then reduce it into something we can calculate.
+
 ## Sets
 - Split rule: $\#V = \#(V \cap W) + \#(V \setminus W)$
 - $\#V = \#(V \setminus \{a\}) + ord(a \in V)$
