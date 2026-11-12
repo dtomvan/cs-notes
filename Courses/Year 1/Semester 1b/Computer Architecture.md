@@ -28,6 +28,7 @@ Weekly notes:
   select templates.pageItem(p)
 ]] -->
 * [[Courses/Year 1/Semester 1b/Computer Architecture/Week 1]]
+* [[Courses/Year 1/Semester 1b/Computer Architecture/Week 2]]
 <!--/lua-->
 
 PDFs:

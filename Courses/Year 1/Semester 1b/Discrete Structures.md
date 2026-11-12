@@ -26,6 +26,7 @@ query[[
 ]]
  -->
 * [[Courses/Year 1/Semester 1b/Discrete Structures/Week 1]]
+* [[Courses/Year 1/Semester 1b/Discrete Structures/Week 2]]
 <!--/lua-->
 
 PDFs:

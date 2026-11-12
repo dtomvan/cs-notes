@@ -29,6 +29,7 @@ Weekly notes:
   where p.parentCourse == "[[" .. editor.getCurrentPage() .. "]]"
   select templates.pageItem(p)
 ]] -->
+* [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 10]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 2]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 3]]
 * [[Courses/Year 1/Semester 1a/Programming Fundamentals/Week 4]]
