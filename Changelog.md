@@ -9,3 +9,6 @@
 - 2026-11-12:
   - Added commands to copy/open the cs-mini variant of a given page
   - Added `actionButton` for opening the current page at cs-mini.toostveen.nl
+- 2026-11-13:
+  - Updated to SB `2.12.0-301-g9f28f7ee-2026-11-13T14-38-34Z`
+  - Highlight: cooler default theme :D
