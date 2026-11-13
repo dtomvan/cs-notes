@@ -12,4 +12,5 @@
 - 2026-11-13:
   - Updated to SB `2.12.0-301-g9f28f7ee-2026-11-13T14-38-34Z`
   - Highlight: cooler default theme :D
+  - Also: new loading screen that makes it clear why it takes a couple seconds to load a markdown page :D (cuz it’s a whole ass app, so it deserves a loading screen)
   - Changed font to the new default: Lora. It has what I wanted to go for for cs.toostveen.nl and it’s now packaged with SB :D might want to go back to iA tho at some point
