@@ -144,6 +144,10 @@ config.set("fonts.ui", "ia-writer-quattro")
 .sb-modal:has(> .sb-nav-root-modal) {
   box-shadow: none;
 }
+
+.sb-lua-directive-inline[data-sb-widget-menu="inline"]:has(.wrapper > span.p > svg) {
+  border: none;
+}
 ```
 
 # Snippets
