@@ -152,6 +152,11 @@ config.set("fonts.ui", "ia-writer-quattro")
 config.set("fonts.editor", "ia-writer-quattro")
 ```
 
+```space-style
+.sb-modal:has(> .sb-nav-root-modal) {
+  box-shadow: none;
+}
+```
 
 # Snippets
 
