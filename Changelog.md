@@ -12,3 +12,4 @@
 - 2026-11-13:
   - Updated to SB `2.12.0-301-g9f28f7ee-2026-11-13T14-38-34Z`
   - Highlight: cooler default theme :D
+  - Changed font to the new default: Lora. It has what I wanted to go for for cs.toostveen.nl and it’s now packaged with SB :D might want to go back to iA tho at some point

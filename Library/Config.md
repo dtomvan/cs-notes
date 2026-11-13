@@ -149,7 +149,6 @@ Really hacky: detect top line by the fact it has the copy button on it, and the 
 -- boot: true
 config.set("frontmatterFolding.foldByDefault", "always")
 config.set("fonts.ui", "ia-writer-quattro")
-config.set("fonts.editor", "ia-writer-quattro")
 ```
 
 ```space-style
