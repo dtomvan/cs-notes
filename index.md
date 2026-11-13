@@ -1,4 +1,4 @@
-“Lite” version of this website (SSR, no LaTeX or other fancy stuff) at: https://cs-mini.toostveen.nl (run ${widgets.commandButton("Navigate: Open in cs-mini.toostveen.nl")} anywhere)
+“Lite” version of this website (SSR, no LaTeX or other fancy stuff) at: https://cs-mini.toostveen.nl (run ${widgets.commandButton("Navigate: Open in cs-mini.toostveen.nl")} or click on the ${icon.feather("external-link")} anywhere)
 
 # Year 1
 - [Copyparty](https://fs.toostveen.nl/pub/UG/CS-1) (only for books, most content will live here now)
